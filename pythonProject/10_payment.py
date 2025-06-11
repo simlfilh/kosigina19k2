@@ -71,7 +71,7 @@ st.markdown("""
         во вкладку "Мои договоры".</p>
     </div>
             """, unsafe_allow_html=True)
-st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\оплата общежития\\1.png")
+st.image("оплата общежития/1.png")
 
 st.markdown("""
     <div class="colored-container">
@@ -84,7 +84,7 @@ st.markdown("""
         После этого перед вами откроется окно с квитанцией.</p>
     </div>
             """, unsafe_allow_html=True)
-st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\оплата общежития\\2.png")
+st.image("оплата общежития/2.png")
 
 st.markdown("""
     <div class="colored-container">
@@ -96,7 +96,7 @@ st.markdown("""
         <p>Проверить все данные на актуальность и корректность.</p>
     </div>
             """, unsafe_allow_html=True)
-st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\оплата общежития\\3.png")
+st.image("оплата общежития/3.png")
 
 st.markdown("""
     <div class="colored-container">
@@ -108,7 +108,7 @@ st.markdown("""
         <p>Отсканировать через приложение Сбербанка QR-код "ИЗВЕЩЕНИЕ".</p>
     </div>
             """, unsafe_allow_html=True)
-st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\оплата общежития\\4.png")
+st.image("оплата общежития/4.png")
 
 st.markdown("""
     <div class="colored-container">

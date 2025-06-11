@@ -53,9 +53,9 @@ st.markdown("""
 
 col1, col2 = st.columns(2)
 with col1:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\блоки\\двушка 1.jpg")
+    st.image("блоки/двушка 1.jpg")
 with col2:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\блоки\\двушка 2.jpg")
+    st.image("блоки/двушка 2.jpg")
 st.divider()
 
 st.markdown("""
@@ -71,9 +71,9 @@ st.markdown("""
 
 col3, col4 = st.columns(2)
 with col3:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\блоки\\трешка 1.jpg")
+    st.image("блоки/трешка 1.jpg")
 with col4:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\блоки\\трешка 2.jpg")
+    st.image("блоки/трешка 2.jpg")
 st.divider()
 
 st.markdown("""

@@ -91,7 +91,7 @@ with col4:
         </div>
                 """, unsafe_allow_html=True)
 with col3:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\здание общежития.jpg",
+    st.image("здание общежития.jpg",
              use_container_width=True)
 st.divider()
 

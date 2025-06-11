@@ -79,5 +79,5 @@ with col1:
         </div>
                 """, unsafe_allow_html=True)
 with col2:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\инструкция вк.png",
+    st.image("инструкция вк.png",
              width=250)

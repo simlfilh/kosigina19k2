@@ -94,8 +94,7 @@ st.divider()
 st.header("Начальник ЖБУ")
 col3, col4 = st.columns([1, 2])
 with col3:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация"
-             "\\начальник ЖБУ.jpg")
+    st.image("../администрация/начальник ЖБУ.jpg")
 with col4:
     st.markdown("""
         <div class="colored-container">
@@ -115,8 +114,7 @@ st.divider()
 st.header("Заместители начальника ЖБУ")
 col5, col6 = st.columns([1, 2])
 with col5:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация"
-             "\\зам. начальника ЖБУ.jpg")
+    st.image("../администрация/зам. начальника ЖБУ.jpg")
 with col6:
     st.markdown("""
         <div class="colored-container">
@@ -145,7 +143,7 @@ with col6:
 
 col7, col8 = st.columns([1, 2])
 with col7:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация\\ннн.jpg")
+    st.image("../администрация/ннн.jpg")
 with col8:
     st.markdown("""
         <div class="colored-container">

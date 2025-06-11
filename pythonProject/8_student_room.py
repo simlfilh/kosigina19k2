@@ -5,7 +5,7 @@ st.divider()
 
 col1, col2 = st.columns(2)
 with col1:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\рекреации\\спортзал.jpg")
+    st.image("рекреации/спортзал.jpg")
 with col2:
     st.markdown("""
         <style>
@@ -65,7 +65,7 @@ with col2:
 
 col3, col4 = st.columns(2)
 with col3:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\рекреации\\зал аэробики.jpg")
+    st.image("рекреации/зал аэробики.jpg")
 with col4:
     st.markdown("""
         <div class="colored-container">
@@ -88,7 +88,7 @@ with col4:
 
 col5, col6 = st.columns(2)
 with col5:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\рекреации\\еда.jpg")
+    st.image("рекреации/еда.jpg")
 with col6:
     st.markdown("""
         <div class="colored-container">
@@ -104,8 +104,7 @@ with col6:
 
 col7, col8 = st.columns(2)
 with col7:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\рекреации"
-             "\\игровая комната.jpg")
+    st.image("рекреации/игровая комната.jpg")
 with col8:
     st.markdown("""
         <div class="colored-container">
@@ -122,7 +121,7 @@ with col8:
 
 col9, col10 = st.columns(2)
 with col9:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\рекреации\\теннис.jpg")
+    st.image("рекреации/теннис.jpg")
 with col10:
     st.markdown("""
         <div class="colored-container">
@@ -139,8 +138,7 @@ with col10:
 
 col11, col12 = st.columns(2)
 with col11:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\рекреации"
-             "\\учебная комната.jpg")
+    st.image("рекреации/учебная комната.jpg")
 with col12:
     st.markdown("""
         <div class="colored-container">
@@ -157,8 +155,7 @@ with col12:
 
 col13, col14 = st.columns(2)
 with col13:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\рекреации"
-             "\\комната отдыха.jpg")
+    st.image("рекреации/комната отдыха.jpg")
 with col14:
     st.markdown("""
         <div class="colored-container">

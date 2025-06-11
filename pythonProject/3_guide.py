@@ -96,8 +96,7 @@ st.markdown("""
 
 col1, col2 = st.columns([1, 3])
 with col1:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация"
-             "\\заведующий.jpg", width=250)
+    st.image("администрация/заведующий.jpg", width=250)
 with col2:
     st.markdown("""
         <div class="colored-container">
@@ -116,8 +115,7 @@ with col2:
 
 col3, col4 = st.columns([1, 3])
 with col3:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация"
-             "\\комендант.jpg", width=250)
+    st.image("администрация/комендант.jpg", width=250)
 with col4:
     st.markdown("""
         <div class="colored-container">
@@ -136,8 +134,7 @@ with col4:
 
 col5, col6 = st.columns([1, 3])
 with col5:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация"
-             "\\завхоз.jpg", width=250)
+    st.image("администрация/завхоз.jpg", width=250)
 with col6:
     st.markdown("""
         <div class="colored-container">

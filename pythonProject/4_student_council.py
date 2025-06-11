@@ -83,8 +83,7 @@ st.divider()
 st.header("Председатель студенческого совета")
 col1, col2 = st.columns([1, 3])
 with col1:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация"
-             "\\председатель.jpg", width=250)
+    st.image("администрация/председатель.jpg", width=250)
 with col2:
     st.markdown("""
         <div class="colored-container">
@@ -110,8 +109,7 @@ st.divider()
 st.header("Заместители председателя")
 col3, col4 = st.columns([1, 3])
 with col3:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация"
-             "\\староста 2.jpg", width=250)
+    st.image("администрация/староста 2.jpg", width=250)
 with col4:
     st.markdown("""
         <div class="colored-container">
@@ -135,8 +133,7 @@ with col4:
 
 col5, col6 = st.columns([1, 3])
 with col5:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация"
-             "\\староста 6.jpg", width=250)
+    st.image("администрация/староста 6.jpg", width=250)
 with col6:
     st.markdown("""
         <div class="colored-container">
@@ -163,8 +160,7 @@ st.header("Старосты")
 # 2 ЭТАЖ
 col7, col8 = st.columns([1, 3])
 with col7:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация"
-             "\\староста 2.jpg", width=250)
+    st.image("администрация/староста 2.jpg", width=250)
 with col8:
     st.markdown("""
         <div class="colored-container">
@@ -189,8 +185,7 @@ with col8:
 # 3 ЭТАЖ
 col9, col10 = st.columns([1, 3])
 with col9:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация"
-             "\\староста 3.jpg", width=250)
+    st.image("администрация/староста 3.jpg", width=250)
 with col10:
     st.markdown("""
         <div class="colored-container">
@@ -215,8 +210,7 @@ with col10:
 # 4 ЭТАЖ
 col11, col12 = st.columns([1, 3])
 with col11:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация"
-             "\\староста 4.jpg", width=250)
+    st.image("администрация/староста 4.jpg", width=250)
 with col12:
     st.markdown("""
         <div class="colored-container">
@@ -241,8 +235,7 @@ with col12:
 # 5 ЭТАЖ
 col13, col14 = st.columns([1, 3])
 with col13:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация"
-             "\\староста 5.jpg", width=250)
+    st.image("администрация/староста 5.jpg", width=250)
 with col14:
     st.markdown("""
         <div class="colored-container">
@@ -267,8 +260,7 @@ with col14:
 # 6 ЭТАЖ
 col15, col16 = st.columns([1, 3])
 with col15:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация"
-             "\\староста 6.jpg", width=250)
+    st.image("администрация/староста 6.jpg", width=250)
 with col16:
     st.markdown("""
         <div class="colored-container">
@@ -292,8 +284,7 @@ with col16:
 # 7 ЭТАЖ
 col17, col18 = st.columns([1, 3])
 with col17:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация"
-             "\\староста 7.jpg", width=250)
+    st.image("администрация/староста 7.jpg", width=250)
 with col18:
     st.markdown("""
         <div class="colored-container">
@@ -318,8 +309,7 @@ with col18:
 # 8 ЭТАЖ
 col19, col20 = st.columns([1, 3])
 with col19:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация"
-             "\\староста 8.jpg", width=250)
+    st.image("администрация/староста 8.jpg", width=250)
 with col20:
     st.markdown("""
         <div class="colored-container">
@@ -344,8 +334,7 @@ with col20:
 # 9 ЭТАЖ
 col21, col22 = st.columns([1, 3])
 with col21:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация"
-             "\\староста 9.jpg", width=250)
+    st.image("администрация/староста 9.jpg", width=250)
 with col22:
     st.markdown("""
         <div class="colored-container">
@@ -370,8 +359,7 @@ with col22:
 # 10 ЭТАЖ
 col23, col24 = st.columns([1, 3])
 with col23:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация"
-             "\\староста 10.jpg", width=250)
+    st.image("администрация/староста 10.jpg", width=250)
 with col24:
     st.markdown("""
         <div class="colored-container">
@@ -396,8 +384,7 @@ with col24:
 # 11 ЭТАЖ
 col25, col26 = st.columns([1, 3])
 with col25:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация"
-             "\\староста 11.jpg", width=250)
+    st.image("администрация/староста 11.jpg", width=250)
 with col26:
     st.markdown("""
         <div class="colored-container">
@@ -422,8 +409,7 @@ with col26:
 # 12 ЭТАЖ
 col27, col28 = st.columns([1, 3])
 with col27:
-    st.image("C:\\Users\\simlfilh\\OneDrive\\Desktop\\СПбГЭУ\\2 курс\\4 семестр\\Практика\\администрация"
-             "\\нн.jpg", width=250)
+    st.image("администрация/нн.jpg", width=250)
 with col28:
     st.markdown("""
         <div class="colored-container">

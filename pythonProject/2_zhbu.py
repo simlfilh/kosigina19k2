@@ -114,7 +114,7 @@ st.divider()
 st.header("Заместители начальника ЖБУ")
 col5, col6 = st.columns([1, 2])
 with col5:
-    st.image("../администрация/зам. начальника ЖБУ.jpg")
+    st.image("администрация/зам. начальника ЖБУ.jpg")
 with col6:
     st.markdown("""
         <div class="colored-container">
@@ -143,7 +143,7 @@ with col6:
 
 col7, col8 = st.columns([1, 2])
 with col7:
-    st.image("../администрация/ннн.jpg")
+    st.image("администрация/ннн.jpg")
 with col8:
     st.markdown("""
         <div class="colored-container">

@@ -98,10 +98,10 @@ with col2:
                     <i class="fab fa-vk"></i></a>
                     <p style="margin: 0; font-size: 23px;"><b>Томаев Азамат Александрович</b></p>
                 </div>
-            <br>
-            <p>🚪 Блок: 130/2</p>  
+            <br> 
             <p>📞 +79388830726</p>  
             <p>📩 azam1306@mail.ru</p>
+            <br>
         </div>
                 """, unsafe_allow_html=True)
 st.divider()
@@ -125,9 +125,9 @@ with col4:
                     <p style="margin: 0; font-size: 23px;"><b>Савченко Валерия Андреевна</b></p>
                 </div>
             <br>
-            <p>🚪 Блок: 161/1</p>
             <p>📞 +79600046973</p>  
             <p>📩 valerasavchenkoprivet@gmail.com</p>
+            <br>
         </div>
                 """, unsafe_allow_html=True)
 
@@ -148,9 +148,9 @@ with col6:
                     <p style="margin: 0; font-size: 23px;"><b>Комышев Никита Михайлович</b></p>
                 </div>
             <br>
-            <p>🚪 Блок: 183/2</p>  
             <p>📞 +79283102210</p>  
             <p>📩 vip.nike2006@mail.ru</p>
+            <br>
         </div>
                 """, unsafe_allow_html=True)
 st.divider()
@@ -176,9 +176,9 @@ with col8:
                     <p style="margin: 0; font-size: 23px;"><b>Савченко Валерия Андреевна</b></p>
                 </div>
             <br>
-            <p>🚪 Блок: 161/1</p>
             <p>📞 +79600046973</p>  
             <p>📩 valerasavchenkoprivet@gmail.com</p>
+            <br>
         </div>
                 """, unsafe_allow_html=True)
 
@@ -201,9 +201,9 @@ with col10:
                     <p style="margin: 0; font-size: 23px;"><b>Педин Максим Олегович</b></p>
                 </div>
             <br>
-            <p>🚪 Блок: 35/1</p>  
             <p>📞 +79181572998</p>  
             <p>📩 pedinmax@gmail.com</p>
+            <br>
         </div>
                 """, unsafe_allow_html=True)
 
@@ -225,10 +225,10 @@ with col12:
                     <i class="fab fa-vk"></i></a>
                     <p style="margin: 0; font-size: 23px;"><b>Радченко Диас</b></p>
                 </div>
-            <br>
-            <p>🚪 Блок: 57/1</p>  
+            <br>  
             <p>📞 +79531529087</p>  
             <p>📩 danzel.loren@mail.ru</p>
+            <br>
         </div>
                 """, unsafe_allow_html=True)
 
@@ -251,9 +251,9 @@ with col14:
                     <p style="margin: 0; font-size: 23px;"><b>Ткаченко Дарья Дмитриевна</b></p>
                 </div>
             <br>
-            <p>🚪 Блок: 58/2</p>  
             <p>📞 +79628651615</p>  
             <p>📩 d.d.t13@mail.ru</p>
+            <br>
         </div>
                 """, unsafe_allow_html=True)
 
@@ -275,9 +275,9 @@ with col16:
                     <p style="margin: 0; font-size: 23px;"><b>Комышев Никита Михайлович</b></p>
                 </div>
             <br>
-            <p>🚪 Блок: 183/2</p>  
             <p>📞 +79283102210</p>  
             <p>📩 vip.nike2006@mail.ru</p>
+            <br>
         </div>
                 """, unsafe_allow_html=True)
 
@@ -300,9 +300,9 @@ with col18:
                     <p style="margin: 0; font-size: 23px;"><b>Гончарова Софья Аркадьевна</b></p>
                 </div>
             <br>
-            <p>🚪 Блок: 99/1</p>  
             <p>📞 +79054244094</p>  
             <p>📩 sofagon278@gmail.com</p>
+            <br>
         </div>
                 """, unsafe_allow_html=True)
 
@@ -325,9 +325,9 @@ with col20:
                     <p style="margin: 0; font-size: 23px;"><b>Дробко Александра Максимовна</b></p>
                 </div>
             <br>
-            <p>🚪 Блок: 108/1</p>  
             <p>📞 +79140875194</p>  
             <p>📩 aleksandra.drobko@mail.ru</p>
+            <br>
         </div>
                 """, unsafe_allow_html=True)
 
@@ -350,9 +350,9 @@ with col22:
                     <p style="margin: 0; font-size: 23px;"><b>Таршиков Василий Александрович</b></p>
                 </div>
             <br>
-            <p>🚪 Блок: 130/1</p>  
             <p>📞 +79292424866</p>  
             <p>📩 sowatasheryt@gmail.com</p>
+            <br>
         </div>
                 """, unsafe_allow_html=True)
 
@@ -375,9 +375,9 @@ with col24:
                     <p style="margin: 0; font-size: 23px;"><b>Волкова Александра Сергеевна</b></p>
                 </div>
             <br>
-            <p>🚪 Блок: 138/2</p>  
             <p>📞 +79201204040</p>  
             <p>📩 Alvolkova@internet.ru</p>
+            <br>
         </div>
                 """, unsafe_allow_html=True)
 
@@ -399,10 +399,10 @@ with col26:
                     <i class="fab fa-vk"></i></a>
                     <p style="margin: 0; font-size: 23px;"><b>Багаури Диана Бакуриевна</b></p>
                 </div>
-            <br>
-            <p>🚪 Блок: 162/1</p>  
+            <br>  
             <p>📞 +79995325717</p>  
             <p>📩 bagauri_diana@mail.ru</p>
+            <br>
         </div>
                 """, unsafe_allow_html=True)
 
@@ -424,10 +424,10 @@ with col28:
                     <i class="fab fa-vk"></i></a>
                     <p style="margin: 0; font-size: 23px;"><b>N N N</b></p>
                 </div>
-            <br>
-            <p>🚪 Блок: 00/0</p>  
+            <br>  
             <p>📞 +79000000000</p>  
             <p>📩 mail.ru</p>
+            <br>
         </div>
                 """, unsafe_allow_html=True)
 st.divider()

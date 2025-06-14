@@ -100,7 +100,7 @@ with col2:
                 </div>
             <br> 
             <p>📞 +79388830726</p>  
-            <p>📩 azam1306@mail.ru</p>
+            <p>📩 <a href="mailto:azam1306@mail.ru">azam1306@mail.ru</a></p>
             <br>
         </div>
                 """, unsafe_allow_html=True)
@@ -126,7 +126,7 @@ with col4:
                 </div>
             <br>
             <p>📞 +79600046973</p>  
-            <p>📩 valerasavchenkoprivet@gmail.com</p>
+            <p>📩 <a href="mailto:valerasavchenkoprivet@gmail.com">valerasavchenkoprivet@gmail.com</a></p>
             <br>
         </div>
                 """, unsafe_allow_html=True)
@@ -149,7 +149,7 @@ with col6:
                 </div>
             <br>
             <p>📞 +79283102210</p>  
-            <p>📩 vip.nike2006@mail.ru</p>
+            <p>📩 <a href="mailto:vip.nike2006@mail.ru">vip.nike2006@mail.ru</a></p>
             <br>
         </div>
                 """, unsafe_allow_html=True)
@@ -177,7 +177,7 @@ with col8:
                 </div>
             <br>
             <p>📞 +79600046973</p>  
-            <p>📩 valerasavchenkoprivet@gmail.com</p>
+            <p>📩 <a href="mailto:valerasavchenkoprivet@gmail.com">valerasavchenkoprivet@gmail.com</a></p>
             <br>
         </div>
                 """, unsafe_allow_html=True)
@@ -202,7 +202,7 @@ with col10:
                 </div>
             <br>
             <p>📞 +79181572998</p>  
-            <p>📩 pedinmax@gmail.com</p>
+            <p>📩 <a href="mailto:pedinmax@gmail.com">pedinmax@gmail.com</a></p>
             <br>
         </div>
                 """, unsafe_allow_html=True)
@@ -227,7 +227,7 @@ with col12:
                 </div>
             <br>  
             <p>📞 +79531529087</p>  
-            <p>📩 danzel.loren@mail.ru</p>
+            <p>📩 <a href="mailto:danzel.loren@mail.ru">danzel.loren@mail.ru</a></p>
             <br>
         </div>
                 """, unsafe_allow_html=True)
@@ -252,7 +252,7 @@ with col14:
                 </div>
             <br>
             <p>📞 +79628651615</p>  
-            <p>📩 d.d.t13@mail.ru</p>
+            <p>📩 <a href="mailto:d.d.t13@mail.ru">d.d.t13@mail.ru</a></p>
             <br>
         </div>
                 """, unsafe_allow_html=True)
@@ -276,7 +276,7 @@ with col16:
                 </div>
             <br>
             <p>📞 +79283102210</p>  
-            <p>📩 vip.nike2006@mail.ru</p>
+            <p>📩 <a href="mailto:vip.nike2006@mail.ru">vip.nike2006@mail.ru</a></p>
             <br>
         </div>
                 """, unsafe_allow_html=True)
@@ -301,7 +301,7 @@ with col18:
                 </div>
             <br>
             <p>📞 +79054244094</p>  
-            <p>📩 sofagon278@gmail.com</p>
+            <p>📩 <a href="mailto:sofagon278@gmail.com">sofagon278@gmail.com</a></p>
             <br>
         </div>
                 """, unsafe_allow_html=True)
@@ -326,7 +326,7 @@ with col20:
                 </div>
             <br>
             <p>📞 +79140875194</p>  
-            <p>📩 aleksandra.drobko@mail.ru</p>
+            <p>📩 <a href="mailto:aleksandra.drobko@mail.ru">aleksandra.drobko@mail.ru</a></p>
             <br>
         </div>
                 """, unsafe_allow_html=True)
@@ -351,7 +351,7 @@ with col22:
                 </div>
             <br>
             <p>📞 +79292424866</p>  
-            <p>📩 sowatasheryt@gmail.com</p>
+            <p>📩 <a href="mailto:sowatasheryt@gmail.com">sowatasheryt@gmail.com</a></p>
             <br>
         </div>
                 """, unsafe_allow_html=True)
@@ -376,7 +376,7 @@ with col24:
                 </div>
             <br>
             <p>📞 +79201204040</p>  
-            <p>📩 Alvolkova@internet.ru</p>
+            <p>📩 <a href="mailto:Alvolkova@internet.ru">Alvolkova@internet.ru</a></p>
             <br>
         </div>
                 """, unsafe_allow_html=True)
@@ -401,7 +401,7 @@ with col26:
                 </div>
             <br>  
             <p>📞 +79995325717</p>  
-            <p>📩 bagauri_diana@mail.ru</p>
+            <p>📩 <a href="mailto:bagauri_diana@mail.ru">bagauri_diana@mail.ru</a></p>
             <br>
         </div>
                 """, unsafe_allow_html=True)

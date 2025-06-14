@@ -124,8 +124,8 @@ with col4:
                     <i class="fab fa-vk"></i></a>
                     <p style="margin: 0; font-size: 23px;"><b>Савченко Валерия Андреевна</b></p>
                 </div>
-            <br>
-            <p>📞 +79600046973</p>  
+            <br> 
+            <p>📞 <a href="tel:+79600046973">+79600046973</a></p>
             <p>📩 <a href="mailto:valerasavchenkoprivet@gmail.com">valerasavchenkoprivet@gmail.com</a></p>
             <br>
         </div>
@@ -147,8 +147,8 @@ with col6:
                     <a href="https://vk.com/shushaanik" target="_blank" style="margin-left: 5px; font-size: 25px;">                        <i class="fab fa-vk"></i></a>
                     <p style="margin: 0; font-size: 23px;"><b>Комышев Никита Михайлович</b></p>
                 </div>
-            <br>
-            <p>📞 +79283102210</p>  
+            <br> 
+            <p>📞 <a href="tel:+79283102210">+79283102210</a></p>
             <p>📩 <a href="mailto:vip.nike2006@mail.ru">vip.nike2006@mail.ru</a></p>
             <br>
         </div>
@@ -176,7 +176,7 @@ with col8:
                     <p style="margin: 0; font-size: 23px;"><b>Савченко Валерия Андреевна</b></p>
                 </div>
             <br>
-            <p>📞 +79600046973</p>  
+            <p>📞 <a href="tel:+79600046973">+79600046973</a></p>
             <p>📩 <a href="mailto:valerasavchenkoprivet@gmail.com">valerasavchenkoprivet@gmail.com</a></p>
             <br>
         </div>
@@ -201,7 +201,7 @@ with col10:
                     <p style="margin: 0; font-size: 23px;"><b>Педин Максим Олегович</b></p>
                 </div>
             <br>
-            <p>📞 +79181572998</p>  
+            <p>📞 <a href="tel:+79181572998">+79181572998</a></p>
             <p>📩 <a href="mailto:pedinmax@gmail.com">pedinmax@gmail.com</a></p>
             <br>
         </div>
@@ -226,7 +226,7 @@ with col12:
                     <p style="margin: 0; font-size: 23px;"><b>Радченко Диас</b></p>
                 </div>
             <br>  
-            <p>📞 +79531529087</p>  
+            <p>📞 <a href="tel:+79531529087">+79531529087</a></p>
             <p>📩 <a href="mailto:danzel.loren@mail.ru">danzel.loren@mail.ru</a></p>
             <br>
         </div>
@@ -251,7 +251,7 @@ with col14:
                     <p style="margin: 0; font-size: 23px;"><b>Ткаченко Дарья Дмитриевна</b></p>
                 </div>
             <br>
-            <p>📞 +79628651615</p>  
+            <p>📞 <a href="tel:+79628651615">+79628651615</a></p>
             <p>📩 <a href="mailto:d.d.t13@mail.ru">d.d.t13@mail.ru</a></p>
             <br>
         </div>
@@ -275,7 +275,7 @@ with col16:
                     <p style="margin: 0; font-size: 23px;"><b>Комышев Никита Михайлович</b></p>
                 </div>
             <br>
-            <p>📞 +79283102210</p>  
+            <p>📞 <a href="tel:+79283102210">+79283102210</a></p>
             <p>📩 <a href="mailto:vip.nike2006@mail.ru">vip.nike2006@mail.ru</a></p>
             <br>
         </div>
@@ -300,7 +300,7 @@ with col18:
                     <p style="margin: 0; font-size: 23px;"><b>Гончарова Софья Аркадьевна</b></p>
                 </div>
             <br>
-            <p>📞 +79054244094</p>  
+            <p>📞 <a href="tel:+79054244094">+79054244094</a></p>
             <p>📩 <a href="mailto:sofagon278@gmail.com">sofagon278@gmail.com</a></p>
             <br>
         </div>
@@ -325,7 +325,7 @@ with col20:
                     <p style="margin: 0; font-size: 23px;"><b>Дробко Александра Максимовна</b></p>
                 </div>
             <br>
-            <p>📞 +79140875194</p>  
+            <p>📞 <a href="tel:+79140875194">+79140875194</a></p>
             <p>📩 <a href="mailto:aleksandra.drobko@mail.ru">aleksandra.drobko@mail.ru</a></p>
             <br>
         </div>
@@ -350,7 +350,7 @@ with col22:
                     <p style="margin: 0; font-size: 23px;"><b>Таршиков Василий Александрович</b></p>
                 </div>
             <br>
-            <p>📞 +79292424866</p>  
+            <p>📞 <a href="tel:+79292424866">+79292424866</a></p>
             <p>📩 <a href="mailto:sowatasheryt@gmail.com">sowatasheryt@gmail.com</a></p>
             <br>
         </div>
@@ -375,7 +375,7 @@ with col24:
                     <p style="margin: 0; font-size: 23px;"><b>Волкова Александра Сергеевна</b></p>
                 </div>
             <br>
-            <p>📞 +79201204040</p>  
+            <p>📞 <a href="tel:+79201204040">+79201204040</a></p>
             <p>📩 <a href="mailto:Alvolkova@internet.ru">Alvolkova@internet.ru</a></p>
             <br>
         </div>

@@ -108,8 +108,8 @@ with col2:
             <br>
             <p><b>Васильев Александр Владимирович<b></p>  
             <p>🚪 Кабинет на 1-ом этаже</p>  
-            <p>📞 (812) 521-00-32</p>  
-            <p>📩 KOS19@UNECON.RU</p>
+            <p>📞 (812) 521-00-32</p> 
+            <p>📩 <a href="mailto:KOS19@UNECON.RU">KOS19@UNECON.RU</a></p>
         </div>
                 """, unsafe_allow_html=True)
 
@@ -128,7 +128,7 @@ with col4:
             <p><b>Левашова Людмила Григорьевна<b></p>
             <p>🚪 Кабинет на 1-ом этаже</p>
             <p>📞 (812) 521-00-33</p>  
-            <p>📩 KOS19@UNECON.RU</p>
+            <p>📩 <a href="mailto:KOS19@UNECON.RU">KOS19@UNECON.RU</a></p>
         </div>
                 """, unsafe_allow_html=True)
 
@@ -147,7 +147,7 @@ with col6:
             <p><b>Максимова Ольга Юрьевна<b></p>
             <p>🚪 Кабинет в правом крыле 1-го этажа</p>  
             <p>📞 -</p>  
-            <p>📩 maksimova.o@unecon.ru</p>
+            <p>📩 <a href="mailto:maksimova.o@unecon.ru">maksimova.o@unecon.ru</a></p>
         </div>
                 """, unsafe_allow_html=True)
 st.divider()

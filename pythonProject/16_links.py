@@ -81,3 +81,16 @@ with col1:
 with col2:
     st.image("инструкция вк.png",
              width=250)
+st.divider()
+
+st.markdown("**Контакты для связи:**")
+st.write("Заведующий общежитием: Васильев Александр Владимирович 👨🏼‍💼")
+st.markdown("""
+<p>📞 <a href="tel:+78125210032">(812) 521-00-32</a></p>
+""", unsafe_allow_html=True)
+st.write("Зам. зав. общежитием: Левашова Людмила Григорьевна 👩🏼‍💼")
+st.markdown("""
+<p>📞 <a href="tel:+78125210033">(812) 521-00-33</a></p>
+""", unsafe_allow_html=True)
+
+st.markdown("🆘 [Чат со студенческим советом](https://t.me/helperKosygina19k2_bot)")

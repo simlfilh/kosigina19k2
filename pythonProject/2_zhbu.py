@@ -105,7 +105,7 @@ with col4:
                 </div>
             <br>
             <p><b>Рябов Сергей Павлович</b></p>  
-            <p>📩 dom@unecon.ru</p> 
+            <p>📩 <a href="mailto:dom@unecon.ru">dom@unecon.ru</a></p>
             <br>
         </div>
                 """, unsafe_allow_html=True)
@@ -125,7 +125,7 @@ with col6:
                 </div>
             <br>
             <p><b>Мирошниченко Андрей Антонович</b></p>  
-            <p>📩 aam@unecon.ru</p> 
+            <p>📩 <a href="mailto:aam@unecon.ru">aam@unecon.ru</a></p>
             <br>
                 <div class="highlight-green">
                     <div class="text-indent-content">

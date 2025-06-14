@@ -98,8 +98,8 @@ with col2:
                     <i class="fab fa-vk"></i></a>
                     <p style="margin: 0; font-size: 23px;"><b>Томаев Азамат Александрович</b></p>
                 </div>
-            <br> 
-            <p>📞 +79388830726</p>  
+            <br>  
+            <p>📞 <a href="tel:+79388830726">+79388830726</a></p>
             <p>📩 <a href="mailto:azam1306@mail.ru">azam1306@mail.ru</a></p>
             <br>
         </div>
@@ -434,8 +434,12 @@ st.divider()
 
 st.markdown("**Контакты для связи:**")
 st.write("Заведующий общежитием: Васильев Александр Владимирович 👨🏼‍💼")
-st.write("Тел.: (812) 521-00-32")
+st.markdown("""
+<p>📞 <a href="tel:+78125210032">(812) 521-00-32</a></p>
+""", unsafe_allow_html=True)
 st.write("Зам. зав. общежитием: Левашова Людмила Григорьевна 👩🏼‍💼")
-st.write("Тел.: (812) 521-00-33")
+st.markdown("""
+<p>📞 <a href="tel:+78125210033">(812) 521-00-33</a></p>
+""", unsafe_allow_html=True)
 
 st.markdown("🆘 [Чат со студенческим советом](https://t.me/helperKosygina19k2_bot)")

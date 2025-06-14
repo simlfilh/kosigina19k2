@@ -108,7 +108,7 @@ with col2:
             <br>
             <p><b>Васильев Александр Владимирович<b></p>  
             <p>🚪 Кабинет на 1-ом этаже</p>  
-            <p>📞 (812) 521-00-32</p> 
+            <p>📞 <a href="tel:+78125210032">(812) 521-00-32</a></p>
             <p>📩 <a href="mailto:KOS19@UNECON.RU">KOS19@UNECON.RU</a></p>
         </div>
                 """, unsafe_allow_html=True)
@@ -127,7 +127,7 @@ with col4:
             <br>
             <p><b>Левашова Людмила Григорьевна<b></p>
             <p>🚪 Кабинет на 1-ом этаже</p>
-            <p>📞 (812) 521-00-33</p>  
+            <p>📞 <a href="tel:+78125210033">(812) 521-00-33</a></p>
             <p>📩 <a href="mailto:KOS19@UNECON.RU">KOS19@UNECON.RU</a></p>
         </div>
                 """, unsafe_allow_html=True)
@@ -154,8 +154,12 @@ st.divider()
 
 st.markdown("**Контакты для связи:**")
 st.write("Заведующий общежитием: Васильев Александр Владимирович 👨🏼‍💼")
-st.write("Тел.: (812) 521-00-32")
+st.markdown("""
+<p>📞 <a href="tel:+78125210032">(812) 521-00-32</a></p>
+""", unsafe_allow_html=True)
 st.write("Зам. зав. общежитием: Левашова Людмила Григорьевна 👩🏼‍💼")
-st.write("Тел.: (812) 521-00-33")
+st.markdown("""
+<p>📞 <a href="tel:+78125210033">(812) 521-00-33</a></p>
+""", unsafe_allow_html=True)
 
 st.markdown("🆘 [Чат со студенческим советом](https://t.me/helperKosygina19k2_bot)")

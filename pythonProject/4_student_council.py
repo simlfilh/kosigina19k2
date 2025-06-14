@@ -400,7 +400,7 @@ with col26:
                     <p style="margin: 0; font-size: 23px;"><b>Багаури Диана Бакуриевна</b></p>
                 </div>
             <br>  
-            <p>📞 +79995325717</p>  
+            <p>📞 <a href="tel:+79995325717">+79995325717</a></p>
             <p>📩 <a href="mailto:bagauri_diana@mail.ru">bagauri_diana@mail.ru</a></p>
             <br>
         </div>

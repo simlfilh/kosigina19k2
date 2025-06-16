@@ -46,7 +46,7 @@ with col1:
             .highlight-blue {
                 background-color: #B3E5FC;
                 border-radius: 10px;
-                padding: 10px;
+                padding: 20px;
                 margin-bottom: 10px;
                 position: relative;
             }

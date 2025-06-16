@@ -31,7 +31,7 @@ st.markdown("""
         .highlight-blue {
             background-color: #B3E5FC;
             border-radius: 10px;
-            padding-left: 20px;
+            padding: 20px;
             margin-bottom: 20px;
             position: relative;
         }

@@ -107,11 +107,8 @@ with col4:
         </div>
                 """, unsafe_allow_html=True)
 with col3:
-    # st.image("здание общежития.jpg",
-    #          use_container_width=True)
-    st.markdown('<div class="image-container">', unsafe_allow_html=True)
-    st.image("здание общежития.jpg", use_column_width=True)
-    st.markdown('</div>', unsafe_allow_html=True)
+    st.image("здание общежития.jpg",
+             use_container_width=True)
 st.divider()
 
 st.markdown("*❗️ Пожалуйста, прежде чем связываться с администрацией, ознакомьтесь со всей информацией на сайте.*")

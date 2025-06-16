@@ -9,7 +9,7 @@ st.markdown("""
            background-color: #FFFFFF;  /* Белый цвет фона */
            border-radius: 10px;      /* Закругление углов на 10px */
            padding: 20px;            /* Внутренние отступы 20px */
-           margin-bottom: 10px;      /* Внешний отступ снизу 20px */
+           margin-bottom: 20px;      /* Внешний отступ снизу 20px */
            color: black !important;  /* Черный цвет текста */
            line-height: 1.0;
            font-size: 21px;
@@ -18,21 +18,21 @@ st.markdown("""
             background-color: #C8E6C9;  /* Светло-зеленый фон */
             border-radius: 10px;
             padding-left: 20px;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
             position: relative;
         }
         .highlight-red {
             background-color: #FFCDD2;  /* Светло-зеленый фон */
             border-radius: 10px;
             padding-left: 20px;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
             position: relative;
         }
         .highlight-blue {
             background-color: #B3E5FC;
             border-radius: 10px;
             padding-left: 20px;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
             position: relative;
         }
         .text-indent-content {
@@ -58,7 +58,6 @@ st.markdown("""
         <br>
         <p>• Списки заселяющихся в общежития будут размещены на сайте после опубликования приказов о зачислении на 1 курс.</p>
         <p>• Первоначальная оплата проживания в общежитии производится за семестр.</p>
-        <br>
     </div>
             """, unsafe_allow_html=True)
 
@@ -86,7 +85,6 @@ st.markdown("""
         по адресу выбранного общежития.</p>
         <p><b>4.</b> Студенты, не включенные в список на заселение, обеспечиваются общежитием после 05.09.2024 
         при наличии свободных мест (обращаться в чат Жилищно-бытового управления через Личный кабинет).</p>
-        <br>
     </div>
             """, unsafe_allow_html=True)
 

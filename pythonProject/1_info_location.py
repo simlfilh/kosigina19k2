@@ -91,8 +91,13 @@ with col4:
         </div>
                 """, unsafe_allow_html=True)
 with col3:
-    st.image("здание общежития.jpg",
-             use_container_width=True)
+    # st.image("здание общежития.jpg",
+    #          use_container_width=True)
+    st.markdown("""
+            <div class="image-container">
+                <img src="здание общежития.jpg">
+            </div>
+        """, unsafe_allow_html=True)
 st.divider()
 
 st.markdown("*❗️ Пожалуйста, прежде чем связываться с администрацией, ознакомьтесь со всей информацией на сайте.*")

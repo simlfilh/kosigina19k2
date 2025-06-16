@@ -25,7 +25,7 @@ st.markdown("""
             background-color: #FFCDD2;  /* Светло-зеленый фон */
             border-radius: 10px;
             padding-left: 20px;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             position: relative;
         }
         .highlight-blue {

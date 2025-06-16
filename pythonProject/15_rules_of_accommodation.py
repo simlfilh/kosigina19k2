@@ -42,7 +42,9 @@ st.markdown("""
         }
     </style>
     <div class="colored-container">
-        <h3 class="highlight-blue">🕐 Режим тишины: 23:00 - 07:00</h3>
+        <div class="highlight-blue">
+            <h3>🕐 Режим тишины: 23:00 - 07:00</h3>
+        </div>
     </div>
             """, unsafe_allow_html=True)
 st.divider()

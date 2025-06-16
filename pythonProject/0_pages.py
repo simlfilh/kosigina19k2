@@ -8,6 +8,11 @@ st.set_page_config(
     initial_sidebar_state="expanded"  # Развёрнутое боковое меню
 )
 
+st.markdown("""
+    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/simlfilh/kosigina19k2/main/%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B0.jpg">
+    <meta name="theme-color" content="#4285f4">
+""", unsafe_allow_html=True)
+
 # Фон сайта (линейный градиент от бирюзового к фиолетовому)
 st.markdown(
     """

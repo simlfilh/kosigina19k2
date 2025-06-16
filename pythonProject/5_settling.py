@@ -9,7 +9,7 @@ st.markdown("""
            background-color: #FFFFFF;  /* Белый цвет фона */
            border-radius: 10px;      /* Закругление углов на 10px */
            padding: 20px;            /* Внутренние отступы 20px */
-           margin-bottom: 20px;      /* Внешний отступ снизу 20px */
+           margin-bottom: 10px;      /* Внешний отступ снизу 20px */
            color: black !important;  /* Черный цвет текста */
            line-height: 1.0;
            font-size: 21px;
@@ -18,7 +18,7 @@ st.markdown("""
             background-color: #C8E6C9;  /* Светло-зеленый фон */
             border-radius: 10px;
             padding-left: 20px;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             position: relative;
         }
         .highlight-red {
@@ -32,7 +32,7 @@ st.markdown("""
             background-color: #B3E5FC;
             border-radius: 10px;
             padding-left: 20px;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             position: relative;
         }
         .text-indent-content {

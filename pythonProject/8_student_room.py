@@ -52,7 +52,7 @@ with col2:
                     </div>
                 </div> 
             <p>💪 Спортзал</p> 
-            <p>🕐 9:00 - 22:00</p>
+            <p>🕐 9:00 — 22:00</p>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
                 <div style="display: flex; align-items: center; gap: 10px; margin: 10px 0;">
                     <a href="https://vk.com/vkusno_to_kak" target="_blank" style="margin-left: 5px; font-size: 25px;">
@@ -75,7 +75,7 @@ with col4:
                     </div>
                 </div> 
             <p>👯 Зал аэробики</p> 
-            <p>🕐 9:00 - 22:00</p>
+            <p>🕐 9:00 — 22:00</p>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
                 <div style="display: flex; align-items: center; gap: 10px; margin: 10px 0;">
                     <a href="https://vk.com/doraz04" target="_blank" style="margin-left: 5px; font-size: 25px;">
@@ -114,7 +114,7 @@ with col8:
                     </div>
                 </div> 
             <p>🧩 Игровая комната</p>
-            <p>🕐 9:00 - 23:00</p>
+            <p>🕐 9:00 — 23:00</p>
             <p>🔑 Ключ на охране</p> 
         </div>
                 """, unsafe_allow_html=True)
@@ -131,7 +131,7 @@ with col10:
                     </div>
                 </div> 
             <p>🏓 Теннисный стол</p>
-            <p>🕐 9:00 - 23:00</p>
+            <p>🕐 9:00 — 23:00</p>
             <p>🔑 Ключ на охране</p> 
         </div>
                 """, unsafe_allow_html=True)
@@ -165,7 +165,7 @@ with col14:
                     </div>
                 </div> 
             <p>🛋 Комната отдыха</p>
-            <p>🕐 9:00 - 23:00</p>
+            <p>🕐 9:00 — 23:00</p>
             <p>🔑 Ключ на охране</p> 
         </div>
                 """, unsafe_allow_html=True)

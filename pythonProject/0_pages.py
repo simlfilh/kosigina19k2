@@ -8,6 +8,14 @@ st.set_page_config(
     initial_sidebar_state="expanded"  # Развёрнутое боковое меню
 )
 
+st.markdown("""
+    <link rel="apple-touch-icon" href="https://github.com/simlfilh/kosigina19k2/blob/main/иконка.jpg?raw=true">
+    <link rel="icon" href="https://github.com/simlfilh/kosigina19k2/blob/main/иконка.jpg?raw=true">
+    <meta name="theme-color" content="#4285f4">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+            """, unsafe_allow_html=True)
+
 # Фон сайта (линейный градиент от бирюзового к фиолетовому)
 st.markdown(
     """

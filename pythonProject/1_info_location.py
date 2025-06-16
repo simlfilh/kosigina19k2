@@ -20,6 +20,22 @@ with col1:
                line-height: 1.0;
                font-size: 21px;
             }
+            .image-container {
+               background-color: #FFFFFF;  /* Белый цвет фона */
+               border-radius: 10px;      /* Закругление углов на 10px */
+               padding: 20px;            /* Внутренние отступы 20px */
+               margin-bottom: 10px;      /* Внешний отступ снизу 20px */
+               height: 100%;            /* Занимать всю доступную высоту */
+               display: flex;
+               align-items: center;     /* Центрирование по вертикали */
+               justify-content: center; /* Центрирование по горизонтали */
+            }
+            .image-container img {
+               max-width: 100%;
+               max-height: 100%;
+               border-radius: 5px;     /* Легкое закругление углов у изображения */
+               object-fit: contain;    /* Сохранять пропорции изображения */
+            }
             .highlight-green {
                 background-color: #C8E6C9;  /* Светло-зеленый фон */
                 border-radius: 10px;

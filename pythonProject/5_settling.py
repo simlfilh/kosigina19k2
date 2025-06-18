@@ -6,23 +6,23 @@ st.divider()
 st.markdown("""
     <style>
         .colored-container {
-           background-color: #FFFFFF;  /* Белый цвет фона */
-           border-radius: 10px;      /* Закругление углов на 10px */
-           padding: 20px;            /* Внутренние отступы 20px */
-           margin-bottom: 20px;      /* Внешний отступ снизу 20px */
-           color: black !important;  /* Черный цвет текста */
+           background-color: #FFFFFF; 
+           border-radius: 10px;      
+           padding: 20px;            
+           margin-bottom: 20px;     
+           color: black !important;  
            line-height: 1.0;
            font-size: 21px;
         }
         .highlight-green {
-            background-color: #C8E6C9;  /* Светло-зеленый фон */
+            background-color: #C8E6C9; 
             border-radius: 10px;
             padding-left: 20px;
             margin-bottom: 20px;
             position: relative;
         }
         .highlight-red {
-            background-color: #FFCDD2;  /* Светло-зеленый фон */
+            background-color: #FFCDD2; 
             border-radius: 10px;
             padding-left: 20px;
             margin-bottom: 20px;

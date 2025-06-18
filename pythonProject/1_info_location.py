@@ -12,32 +12,32 @@ with col1:
     st.markdown("""
         <style>
             .colored-container {
-               background-color: #FFFFFF;  /* Белый цвет фона */
-               border-radius: 10px;      /* Закругление углов на 10px */
-               padding: 20px;            /* Внутренние отступы 20px */
-               margin-bottom: 10px;      /* Внешний отступ снизу 20px */
-               color: black !important;  /* Черный цвет текста */
+               background-color: #FFFFFF;  
+               border-radius: 10px;      
+               padding: 20px;            
+               margin-bottom: 10px;      
+               color: black !important;  
                line-height: 1.0;
                font-size: 21px;
             }
             .image-container {
-               background-color: #FFFFFF;  /* Белый цвет фона */
-               border-radius: 10px;      /* Закругление углов на 10px */
-               padding: 20px;            /* Внутренние отступы 20px */
-               margin-bottom: 10px;      /* Внешний отступ снизу 20px */
-               height: 100%;            /* Занимать всю доступную высоту */
+               background-color: #FFFFFF; 
+               border-radius: 10px;      
+               padding: 20px;            
+               margin-bottom: 10px;      
+               height: 100%;           
                display: flex;
-               align-items: center;     /* Центрирование по вертикали */
-               justify-content: center; /* Центрирование по горизонтали */
+               align-items: center;     
+               justify-content: center; 
             }
             .image-container img {
                max-width: 100%;
                max-height: 100%;
-               border-radius: 5px;     /* Легкое закругление углов у изображения */
-               object-fit: contain;    /* Сохранять пропорции изображения */
+               border-radius: 5px;     
+               object-fit: contain;    
             }
             .highlight-green {
-                background-color: #C8E6C9;  /* Светло-зеленый фон */
+                background-color: #C8E6C9; 
                 border-radius: 10px;
                 padding: 10px;
                 margin-bottom: 10px;

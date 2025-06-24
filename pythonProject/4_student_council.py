@@ -132,7 +132,7 @@ with col4:
 
 col5, col6 = st.columns([1, 3])
 with col5:
-    st.image("администрация/староста 6.jpg", width=250)
+    st.image("администрация/староста 12.jpg", width=250)
 with col6:
     st.markdown("""
         <div class="colored-container">
@@ -270,12 +270,13 @@ with col16:
                 </div>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
                 <div style="display: flex; align-items: center; gap: 10px; margin: 10px 0;">
-                    <a href="https://vk.com/shushaanik" target="_blank" style="margin-left: 5px; font-size: 25px;">                        <i class="fab fa-vk"></i></a>
-                    <p style="margin: 0; font-size: 23px;"><b>Комышев Никита Михайлович</b></p>
+                    <a href="https://vk.com/shushaanik" target="_blank" style="margin-left: 5px; font-size: 25px;">                        
+                    <i class="fab fa-vk"></i></a>
+                    <p style="margin: 0; font-size: 23px;"><b>Баранова Елизавета Сергеевна</b></p>
                 </div>
             <br>
-            <p>📞 <a href="tel:+79283102210">+79283102210</a></p>
-            <p>📩 <a href="mailto:vip.nike2006@mail.ru">vip.nike2006@mail.ru</a></p>
+            <p>📞 <a href="tel:+79145560936">+79145560936</a></p>
+            <p>📩 <a href="mailto:lizavbara@gmail.com">lizavbara@gmail.com</a></p>
             <br>
         </div>
                 """, unsafe_allow_html=True)
@@ -408,7 +409,7 @@ with col26:
 # 12 ЭТАЖ
 col27, col28 = st.columns([1, 3])
 with col27:
-    st.image("администрация/нн.jpg", width=250)
+    st.image("администрация/староста 12.jpg", width=250)
 with col28:
     st.markdown("""
         <div class="colored-container">
@@ -419,13 +420,12 @@ with col28:
                 </div>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
                 <div style="display: flex; align-items: center; gap: 10px; margin: 10px 0;">
-                    <a href="https://vk.com/bagaurid" target="_blank" style="margin-left: 5px; font-size: 25px;">
-                    <i class="fab fa-vk"></i></a>
-                    <p style="margin: 0; font-size: 23px;"><b>N N N</b></p>
+                    <a href="https://vk.com/shushaanik" target="_blank" style="margin-left: 5px; font-size: 25px;">                        <i class="fab fa-vk"></i></a>
+                    <p style="margin: 0; font-size: 23px;"><b>Комышев Никита Михайлович</b></p>
                 </div>
-            <br>  
-            <p>📞 +79000000000</p>  
-            <p>📩 mail.ru</p>
+            <br>
+            <p>📞 <a href="tel:+79283102210">+79283102210</a></p>
+            <p>📩 <a href="mailto:vip.nike2006@mail.ru">vip.nike2006@mail.ru</a></p>
             <br>
         </div>
                 """, unsafe_allow_html=True)

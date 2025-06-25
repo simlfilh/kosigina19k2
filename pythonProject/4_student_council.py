@@ -270,7 +270,7 @@ with col16:
                 </div>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
                 <div style="display: flex; align-items: center; gap: 10px; margin: 10px 0;">
-                    <a href="https://vk.com/shushaanik" target="_blank" style="margin-left: 5px; font-size: 25px;">                        
+                    <a href="https://vk.com/baragromova" target="_blank" style="margin-left: 5px; font-size: 25px;">                        
                     <i class="fab fa-vk"></i></a>
                     <p style="margin: 0; font-size: 23px;"><b>Баранова Елизавета Сергеевна</b></p>
                 </div>

@@ -100,6 +100,17 @@ with col5:
             <p>ПТ: 14:00 — 17:00</p>
         </div>
                 """, unsafe_allow_html=True)
+    
+st.markdown("""
+    <div class="colored-container">
+            <div class="highlight-blue">
+                <div class="text-indent-content">
+                    <h3>🔐 Камера хранения | 1 ЭТАЖ</h3> 
+                </div>
+            </div>
+    </div>
+            """, unsafe_allow_html=True)
+st.divider()
 
 st.markdown("""
     <div class="colored-container">

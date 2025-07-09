@@ -7,6 +7,15 @@ st.set_page_config(
     initial_sidebar_state="expanded"  
 )
 
+with st.sidebar:
+    st.link_button("Вернуться на главную", 
+                 "https://unecondorms.streamlit.app/",
+                 type="primary",  
+                 use_container_width=True)
+    
+    # Пустое пространство между кнопкой и возможным меню в сайдбаре
+    st.markdown("<div style='margin-top: 20px;'></div>", unsafe_allow_html=True)
+
 st.markdown(
     """
     <style>
@@ -21,15 +30,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
-with st.sidebar:
-    st.link_button("Вернуться на главную", 
-                 "https://unecondorms.streamlit.app/",
-                 type="primary",  
-                 use_container_width=True)
-    
-    # Пустое пространство между кнопкой и возможным меню в сайдбаре
-    st.markdown("<div style='margin-top: 20px;'></div>", unsafe_allow_html=True)
 
 pages = {
     "🏠 ОБЩЕЖИТИЕ СПбГЭУ №3": [

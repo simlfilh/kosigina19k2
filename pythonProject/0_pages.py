@@ -65,9 +65,9 @@ with st.sidebar:
         unsafe_allow_html=True
     )
     
-    # Добавляем отступ между кнопкой и меню
-    st.markdown("<div style='margin-top: 20px;'></div>", unsafe_allow_html=True)
+# Добавляем отступ между кнопкой и меню
+st.markdown("<div style='margin-top: 20px;'></div>", unsafe_allow_html=True)
 
-    # Основная навигация
-    pg = st.navigation(pages)
-    pg.run()
+# Основная навигация
+pg = st.navigation(pages)
+pg.run()

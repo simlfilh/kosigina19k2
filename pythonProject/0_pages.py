@@ -28,6 +28,10 @@ with st.sidebar:
                  type="primary",  
                  use_container_width=True)
 
+# Основная навигация
+pg = st.navigation(pages)
+pg.run()
+
 pages = {
     "🏠 ОБЩЕЖИТИЕ СПбГЭУ №3": [
         st.Page("1_info_location.py", title="— Как нас найти?")
@@ -61,6 +65,3 @@ pages = {
     ]
 }
 
-# Основная навигация
-pg = st.navigation(pages)
-pg.run()

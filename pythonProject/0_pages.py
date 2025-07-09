@@ -25,7 +25,7 @@ st.markdown(
 with st.sidebar:
     st.link_button("Вернуться на главную", 
                  "https://unecondorms.streamlit.app/",
-                 type="primary",  # или "secondary"
+                 type="secondary",  # или "secondary"
                  use_container_width=True)
 
 pages = {

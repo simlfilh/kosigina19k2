@@ -22,6 +22,12 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+with st.sidebar:
+    st.link_button("Вернуться на главную", 
+                 "https://unecondorms.streamlit.app/",
+                 type="primary",  # или "secondary"
+                 use_container_width=True)
+
 pages = {
     "🏠 ОБЩЕЖИТИЕ СПбГЭУ №3": [
         st.Page("1_info_location.py", title="— Как нас найти?")
@@ -54,19 +60,6 @@ pages = {
         st.Page("16_links.py", title="— Ссылки")
     ]
 }
-
-with st.sidebar:
-    st.markdown(
-        """
-        <a href="https://unecondorms.streamlit.app/" target="_blank" class="sidebar-button">
-            На главную
-        </a>
-        """,
-        unsafe_allow_html=True
-    )
-    
-# Добавляем отступ между кнопкой и меню
-st.markdown("<div style='margin-top: 20px;'></div>", unsafe_allow_html=True)
 
 # Основная навигация
 pg = st.navigation(pages)

@@ -58,7 +58,7 @@ pages = {
 with st.sidebar:
     st.markdown(
         """
-        <a href="https://withoutmenu.streamlit.app/" target="_blank" class="sidebar-button">
+        <a href="https://unecondorms.streamlit.app/" target="_blank" class="sidebar-button">
             На главную
         </a>
         """,

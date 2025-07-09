@@ -23,14 +23,14 @@ st.markdown(
 )
 
 with st.sidebar:
+    # Кнопка ПЕРВОЙ в сайдбаре
     st.link_button("Вернуться на главную", 
                  "https://unecondorms.streamlit.app/",
                  type="primary",  
                  use_container_width=True)
-
-# Основная навигация
-pg = st.navigation(pages)
-pg.run()
+    
+# Небольшой отступ перед меню
+st.markdown("<div style='margin-bottom: 20px;'></div>", unsafe_allow_html=True)
 
 pages = {
     "🏠 ОБЩЕЖИТИЕ СПбГЭУ №3": [
@@ -64,4 +64,8 @@ pages = {
         st.Page("16_links.py", title="— Ссылки")
     ]
 }
+
+# Затем навигация
+pg = st.navigation(pages)
+pg.run()
 

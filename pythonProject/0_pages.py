@@ -12,9 +12,6 @@ with st.sidebar:
                  "https://unecondorms.streamlit.app/",
                  type="primary",  
                  use_container_width=True)
-    
-    # Пустое пространство между кнопкой и возможным меню в сайдбаре
-    st.markdown("<div style='margin-top: 20px;'></div>", unsafe_allow_html=True)
 
 st.markdown(
     """

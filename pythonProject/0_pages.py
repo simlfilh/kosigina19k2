@@ -55,5 +55,19 @@ pages = {
     ]
 }
 
-pg = st.navigation(pages)
-pg.run()
+with st.sidebar:
+    st.markdown(
+        """
+        <a href="https://withoutmenu.streamlit.app/" target="_blank" class="sidebar-button">
+            На главную
+        </a>
+        """,
+        unsafe_allow_html=True
+    )
+    
+    # Добавляем отступ между кнопкой и меню
+    st.markdown("<div style='margin-top: 20px;'></div>", unsafe_allow_html=True)
+
+    # Основная навигация
+    pg = st.navigation(pages)
+    pg.run()

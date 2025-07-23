@@ -434,8 +434,18 @@ st.divider()
 st.markdown("**Контакты для связи:**")
 st.write("Заведующий общежитием: Васильев Александр Владимирович 👨🏼‍💼")
 st.markdown("""
-<p>📞 <a href="tel:+78125210032">(812) 521-00-32</a></p>
-""", unsafe_allow_html=True)
+    <style>
+        a {
+            color: white !important;
+            text-decoration: none; 
+        }
+        a:hover {
+            color: #ccc !important;  
+            text-decoration: underline; 
+        }
+    </style>
+    <p>📞 <a href="tel:+78125210032">(812) 521-00-32</a></p>
+            """, unsafe_allow_html=True)
 st.write("Зам. зав. общежитием: Левашова Людмила Григорьевна 👩🏼‍💼")
 st.markdown("""
 <p>📞 <a href="tel:+78125210033">(812) 521-00-33</a></p>

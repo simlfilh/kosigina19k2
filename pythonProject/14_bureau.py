@@ -89,13 +89,33 @@ with col2:
 st.divider()
 
 st.markdown("**Контакты для связи:**")
+
 st.write("Заведующий общежитием: Васильев Александр Владимирович 👨🏼‍💼")
 st.markdown("""
-<p>📞 <a href="tel:+78125210032">(812) 521-00-32</a></p>
-""", unsafe_allow_html=True)
-st.write("Зам. зав. общежитием: Левашова Людмила Григорьевна 👩🏼‍💼")
-st.markdown("""
-<p>📞 <a href="tel:+78125210033">(812) 521-00-33</a></p>
+    <style>
+        .custom-links a {
+            color: white !important;
+            text-decoration: none; 
+        }
+        .custom-links a:hover {
+            color: #ccc !important;  
+            text-decoration: underline; 
+        }
+    </style>
+    <div class="custom-links">
+        <p>📞 <a href="tel:+78125210032">(812) 521-00-32</a></p>
+    </div>
 """, unsafe_allow_html=True)
 
-st.markdown("🆘 [Чат со студенческим советом](https://t.me/helperKosygina19k2_bot)")
+st.write("Зам. зав. общежитием: Левашова Людмила Григорьевна 👩🏼‍💼")
+st.markdown("""
+    <div class="custom-links">
+        <p>📞 <a href="tel:+78125210033">(812) 521-00-33</a></p>
+    </div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+    <div class="custom-links">
+        🆘 <a href="https://t.me/helperKosygina19k2_bot">Чат со студенческим советом</a>
+    </div>
+""", unsafe_allow_html=True)

@@ -55,9 +55,9 @@ with col2:
             <p>🕐 9:00 — 22:00</p>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
                 <div style="display: flex; align-items: center; gap: 10px; margin: 10px 0;">
-                    <a href="https://vk.com/vkusno_to_kak" target="_blank" style="margin-left: 5px; font-size: 25px;">
+                    <a href="https://vk.com/dk_rus_123" target="_blank" style="margin-left: 5px; font-size: 25px;">
                     <i class="fab fa-vk"></i></a>
-                    <p style="margin: 0; font-size: 23px;">Ответственный за спортзал Марсель</p>
+                    <p style="margin: 0; font-size: 23px;">Ответственный за спортзал Роман</p>
                 </div>
             <p>🔑 Ключ на охране</p> 
         </div>
@@ -202,3 +202,4 @@ st.markdown("""
         🆘 <a href="https://t.me/helperKosygina19k2_bot">Чат со студенческим советом</a>
     </div>
 """, unsafe_allow_html=True)
+

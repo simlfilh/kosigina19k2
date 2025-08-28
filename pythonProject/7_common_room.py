@@ -51,7 +51,7 @@ with col2:
                         <h3>🧺 Прачечная | 1 ЭТАЖ</h3> 
                     </div>
                 </div>
-            <p>Оснащение: 10 стиральных машин, 1 сушильная машина.</p>
+            <p>Оснащение: 11 стиральных машин, 1 сушильная машина.</p>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
                 <div style="display: flex; align-items: center; gap: 10px; margin: 10px 0;">
                     <a href="https://t.me/Landromaticbot" target="_blank" style="margin-left: 5px; font-size: 25px;">
@@ -170,3 +170,4 @@ st.markdown("""
         🆘 <a href="https://t.me/helperKosygina19k2_bot">Чат со студенческим советом</a>
     </div>
 """, unsafe_allow_html=True)
+

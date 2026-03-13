@@ -345,13 +345,13 @@ with col22:
                 </div>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
                 <div style="display: flex; align-items: center; gap: 10px; margin: 10px 0;">
-                    <a href="https://vk.com/vasushkakeef" target="_blank" style="margin-left: 5px; font-size: 25px;">
+                    <a href="https://vk.com/to__ri" target="_blank" style="margin-left: 5px; font-size: 25px;">
                     <i class="fab fa-vk"></i></a>
-                    <p style="margin: 0; font-size: 23px;"><b>Таршиков Василий Александрович</b></p>
+                    <p style="margin: 0; font-size: 23px;"><b>Абдулвалеева Виктория Николаевна</b></p>
                 </div>
             <br>
-            <p>📞 <a href="tel:+79292424866">+79292424866</a></p>
-            <p>📩 <a href="mailto:sowatasheryt@gmail.com">sowatasheryt@gmail.com</a></p>
+            <p>📞 <a href="tel:+79883181417">+79883181417</a></p>
+            <p>📩 <a href="mailto:viktoriaa126@gmail.com">viktoriaa126@gmail.com</a></p>
             <br>
         </div>
                 """, unsafe_allow_html=True)
@@ -395,13 +395,13 @@ with col26:
                 </div>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
                 <div style="display: flex; align-items: center; gap: 10px; margin: 10px 0;">
-                    <a href="https://vk.com/bagaurid" target="_blank" style="margin-left: 5px; font-size: 25px;">
+                    <a href="https://vk.com/a_n_a_s_t_a_s_i_a_st" target="_blank" style="margin-left: 5px; font-size: 25px;">
                     <i class="fab fa-vk"></i></a>
-                    <p style="margin: 0; font-size: 23px;"><b>Багаури Диана Бакуриевна</b></p>
+                    <p style="margin: 0; font-size: 23px;"><b>Стебенькова Анастасия Андреевна</b></p>
                 </div>
             <br>  
-            <p>📞 <a href="tel:+79995325717">+79995325717</a></p>
-            <p>📩 <a href="mailto:bagauri_diana@mail.ru">bagauri_diana@mail.ru</a></p>
+            <p>📞 <a href="tel:+79517891781">+79517891781</a></p>
+            <p>📩 <a href="mailto:nastastebenkova1@gmail.com">nastastebenkova1@gmail.com</a></p>
             <br>
         </div>
                 """, unsafe_allow_html=True)

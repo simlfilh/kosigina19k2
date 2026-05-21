@@ -104,7 +104,7 @@ with col6:
 
 col7, col8 = st.columns(2)
 with col7:
-    st.image("рекреации/вода.jpg")
+    st.image("рекреации/вода.png")
 with col8:
     st.markdown("""
         <div class="colored-container">
@@ -171,7 +171,7 @@ with col14:
 
 col15, col16 = st.columns(2)
 with col15:
-    st.image("рекреации/кинозал.jpg")
+    st.image("рекреации/кинозал.png")
 with col16:
     st.markdown("""
         <div class="colored-container">

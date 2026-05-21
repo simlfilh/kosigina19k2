@@ -43,8 +43,8 @@ pages = {
     "📍 ЧТО ЕСТЬ В ОБЩЕЖИТИИ?": [
         st.Page("6_block.py", title="— Блоки для проживания"),
         st.Page("7_common_room.py", title="— Бытовое пространство"),
-        st.Page("8_student_room.py", title="— Студенческое пространство"),
-        st.Page("9_guests_room.py", title="— Гостевые блоки")
+        st.Page("8_student_room.py", title="— Студенческое пространство")
+        # st.Page("9_guests_room.py", title="— Гостевые блоки")
     ],
     "📋 ДОКУМЕНТЫ": [
         st.Page("10_payment.py", title="— Оплата проживания"),

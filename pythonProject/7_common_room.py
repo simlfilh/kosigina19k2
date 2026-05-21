@@ -102,10 +102,10 @@ with col5:
                 """, unsafe_allow_html=True)
 st.divider()
 
-col6, col7 = st.columns([1, 2])
-with col5:
-    st.image("рекреации/сушильная.jpg")
+col6, col7 = st.columns(2)
 with col6:
+    st.image("рекреации/сушильная.jpg")
+with col7:
     st.markdown("""
         <div class="colored-container">
                 <div class="highlight-blue">

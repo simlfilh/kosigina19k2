@@ -155,8 +155,6 @@ with st.expander("**ПРИЛОЖЕНИЕ к Положению об общежи
     st.image("пвр/6.jpg")
     st.image("пвр/7.jpg")
     st.image("пвр/8.jpg")
-    st.image("пвр/9.jpg")
-    st.image("пвр/10.jpg")
 st.divider()
 
 st.markdown("**Контакты для связи:**")

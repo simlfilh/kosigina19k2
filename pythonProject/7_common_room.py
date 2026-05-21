@@ -100,6 +100,7 @@ with col5:
             <p>ПТ: 14:00 — 17:00</p>
         </div>
                 """, unsafe_allow_html=True)
+st.divider()
 
 col6, col7 = st.columns(2)
 with col5:
@@ -116,6 +117,7 @@ with col6:
             <p>🕐 24/7</p>
         </div>
                 """, unsafe_allow_html=True)
+st.divider()
     
 st.markdown("""
     <div class="colored-container">

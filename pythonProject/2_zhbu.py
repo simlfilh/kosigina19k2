@@ -93,36 +93,16 @@ st.markdown("""
             """, unsafe_allow_html=True)
 st.divider()
 
-st.header("Начальник ЖБУ")
+st.header("Заместители начальника ЖБУ")
 col3, col4 = st.columns([1, 2])
 with col3:
-    st.image("администрация/начальник ЖБУ.jpg")
+    st.image("администрация/зам. начальника ЖБУ.jpg")
 with col4:
     st.markdown("""
         <div class="colored-container">
                 <div class="highlight-green">
                     <div class="text-indent-content">
-                        <h3>Руководитель волонтерского центра СПбГЭУ</h3> 
-                    </div>
-                </div>
-            <br>
-            <p><b>Рябов Сергей Павлович</b></p>  
-            <p>📩 <a href="mailto:dom@unecon.ru">dom@unecon.ru</a></p>
-            <br>
-        </div>
-                """, unsafe_allow_html=True)
-st.divider()
-
-st.header("Заместители начальника ЖБУ")
-col5, col6 = st.columns([1, 2])
-with col5:
-    st.image("администрация/зам. начальника ЖБУ.jpg")
-with col6:
-    st.markdown("""
-        <div class="colored-container">
-                <div class="highlight-green">
-                    <div class="text-indent-content">
-                        <h3>Заместитель</h3> 
+                        <h3>И. о. начальника ЖБУ</h3> 
                     </div>
                 </div>
             <br>
@@ -143,10 +123,10 @@ with col6:
         </div>
                 """, unsafe_allow_html=True)
 
-col7, col8 = st.columns([1, 2])
-with col7:
+col5, col6 = st.columns([1, 2])
+with col5:
     st.image("администрация/ннн.jpg")
-with col8:
+with col6:
     st.markdown("""
         <div class="colored-container">
                 <div class="highlight-green">
@@ -173,88 +153,131 @@ with col8:
 st.divider()
 
 st.header("Специалисты")
-st.markdown("""
-    <div class="colored-container">
-            <div class="highlight-blue">
-                <div class="text-indent-content">
-                    <h3>Паспортист</h3> 
-                </div>
-            </div>
-        <br>
-        <p><b>Белова Надежда Викторовна 👩🏼‍💼</b></p>  
-        <p>🚪 Кабинет №1</p>  
-        <br> 
-            <div class="highlight-green">
-                <div class="text-indent-content">
-                    <h3>🕐 Часы приёма</h3> 
-                </div>
-            </div>
-        <br>
-        <p>ПН: 13:00 — 16:30</p>  
-        <p>ВТ: 13:00 — 16:30</p>  
-        <p>СР: приема нет</p>
-        <p>ЧТ: 14:00 — 17:00</p>
-        <p>ПТ: 14:00 — 16:45</p>
-        <br>
-        <p>🍜 ОБЕД: 12:00 — 13:00</p>
-    </div>
-            """, unsafe_allow_html=True)
 
-st.markdown("""
-    <div class="colored-container">
-            <div class="highlight-blue">
-                <div class="text-indent-content">
-                    <h3>Ведущий документовед</h3> 
+col7, col8 = st.columns([1, 2])
+with col7:
+    st.image("администрация/ннн.jpg")
+with col8:
+    st.markdown("""
+        <div class="colored-container">
+                <div class="highlight-blue">
+                    <div class="text-indent-content">
+                        <h3>Начальник отдела размещения учета и регистрации</h3> 
+                    </div>
                 </div>
-            </div>
-        <br>
-        <p><b>Чигиринова Дарина Владимировна 👩🏼‍💼</b></p>  
-        <p>🚪 Кабинет №5</p>  
-        <br>
-            <div class="highlight-green">
-                <div class="text-indent-content">
-                    <h3>🕐 Часы приёма</h3> 
+            <br>
+            <p><b>Васильева Валерия Михайловна 👩🏼‍💼</b></p>  
+            <p>🚪 Кабинет №5</p>  
+            <br>
+                <div class="highlight-green">
+                    <div class="text-indent-content">
+                        <h3>🕐 Часы приёма</h3> 
+                    </div>
                 </div>
-            </div>
-        <br>
-        <p>ПН: 14:00 — 16:30</p>  
-        <p>ВТ: 14:00 — 16:30</p>  
-        <p>СР: приема нет</p>
-        <p>ЧТ: 14:00 — 16:30</p>
-        <p>ПТ: 13:00 — 15:00</p>
-        <br>
-        <p>🍜 ОБЕД: 12:00 — 13:00</p>
-    </div>
-            """, unsafe_allow_html=True)
+            <br>
+            <p>ПН: 14:00 — 16:30</p>  
+            <p>ВТ: 14:00 — 16:30</p>  
+            <p>СР: приема нет</p>
+            <p>ЧТ: 14:00 — 16:30</p>
+            <p>ПТ: 13:00 — 15:00</p>
+            <br>
+            <p>🍜 ОБЕД: 12:00 — 13:00</p>
+        </div>
+                """, unsafe_allow_html=True)
 
-st.markdown("""
-    <div class="colored-container">
-            <div class="highlight-blue">
-                <div class="text-indent-content">
-                    <h3>Специалист по работе с молодежью</h3> 
+col9, col10 = st.columns([1, 2])
+with col9:
+    st.image("администрация/ннн.jpg")
+with col10:
+    st.markdown("""
+        <div class="colored-container">
+                <div class="highlight-blue">
+                    <div class="text-indent-content">
+                        <h3>Паспортист</h3> 
+                    </div>
                 </div>
-            </div>
-        <br>
-        <p><b>Васильева Валерия Михайловна 👩🏼‍💼</b></p>  
-        <p>🚪 Кабинет №5</p>  
-        <br>
-            <div class="highlight-green">
-                <div class="text-indent-content">
-                    <h3>🕐 Часы приёма</h3> 
+            <br>
+            <p><b>Белова Надежда Викторовна 👩🏼‍💼</b></p>  
+            <p>🚪 Кабинет №1</p>  
+            <br> 
+                <div class="highlight-green">
+                    <div class="text-indent-content">
+                        <h3>🕐 Часы приёма</h3> 
+                    </div>
                 </div>
-            </div>
-        <br>
-        <p>ПН: 14:00 — 16:30</p>  
-        <p>ВТ: 14:00 — 16:30</p>  
-        <p>СР: приема нет</p>
-        <p>ЧТ: 14:00 — 16:30</p>
-        <p>ПТ: 13:00 — 15:00</p>
-        <br>
-        <p>🍜 ОБЕД: 12:00 — 13:00</p>
-    </div>
-            """, unsafe_allow_html=True)
+            <br>
+            <p>ПН: 13:00 — 16:30</p>  
+            <p>ВТ: 13:00 — 16:30</p>  
+            <p>СР: приема нет</p>
+            <p>ЧТ: 14:00 — 17:00</p>
+            <p>ПТ: 14:00 — 16:45</p>
+            <br>
+            <p>🍜 ОБЕД: 12:00 — 13:00</p>
+        </div>
+                """, unsafe_allow_html=True)
+
+col11, col12 = st.columns([1, 2])
+with col11:
+    st.image("администрация/ннн.jpg")
+with col12:
+    st.markdown("""
+        <div class="colored-container">
+                <div class="highlight-blue">
+                    <div class="text-indent-content">
+                        <h3>Делопроизводитель</h3> 
+                    </div>
+                </div>
+            <br>
+            <p><b>Томаев Азамат Александрович 👨‍💻</b></p>  
+            <p>🚪 Кабинет №5</p>  
+            <br>
+                <div class="highlight-green">
+                    <div class="text-indent-content">
+                        <h3>🕐 Часы приёма</h3> 
+                    </div>
+                </div>
+            <br>
+            <p>ПН: 14:00 — 16:30</p>  
+            <p>ВТ: 14:00 — 16:30</p>  
+            <p>СР: приема нет</p>
+            <p>ЧТ: 14:00 — 16:30</p>
+            <p>ПТ: 13:00 — 15:00</p>
+            <br>
+            <p>🍜 ОБЕД: 12:00 — 13:00</p>
+        </div>
+                """, unsafe_allow_html=True)
+
+col13, col14 = st.columns([1, 2])
+with col13:
+    st.image("администрация/ннн.jpg")
+with col14:
+    st.markdown("""
+        <div class="colored-container">
+                <div class="highlight-blue">
+                    <div class="text-indent-content">
+                        <h3>Делопроизводитель</h3> 
+                    </div>
+                </div>
+            <br>
+            <p><b>Савченко Валерия Андреевна 👩‍💻</b></p>  
+            <p>🚪 Кабинет №5</p>  
+            <br>
+                <div class="highlight-green">
+                    <div class="text-indent-content">
+                        <h3>🕐 Часы приёма</h3> 
+                    </div>
+                </div>
+            <br>
+            <p>ПН: 14:00 — 16:30</p>  
+            <p>ВТ: 14:00 — 16:30</p>  
+            <p>СР: приема нет</p>
+            <p>ЧТ: 14:00 — 16:30</p>
+            <p>ПТ: 13:00 — 15:00</p>
+            <br>
+            <p>🍜 ОБЕД: 12:00 — 13:00</p>
+        </div>
+                """, unsafe_allow_html=True)
 st.divider()
-
 st.markdown("**Контакты для связи:**")
 
 st.write("Заведующий общежитием: Васильев Александр Владимирович 👨🏼‍💼")

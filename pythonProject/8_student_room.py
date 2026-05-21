@@ -104,8 +104,24 @@ with col6:
 
 col7, col8 = st.columns(2)
 with col7:
-    st.image("рекреации/игровая комната.jpg")
+    st.image("рекреации/вода.jpg")
 with col8:
+    st.markdown("""
+        <div class="colored-container">
+                <div class="highlight-blue">
+                    <div class="text-indent-content">
+                        <h3>6 ЭТАЖ</h3> 
+                    </div>
+                </div> 
+            <p>💧 Аппарат с водой</p>
+            <p>🕐 24/7</p>
+        </div>
+                """, unsafe_allow_html=True)
+
+col9, col10 = st.columns(2)
+with col9:
+    st.image("рекреации/игровая комната.jpg")
+with col10:
     st.markdown("""
         <div class="colored-container">
                 <div class="highlight-blue">
@@ -119,10 +135,10 @@ with col8:
         </div>
                 """, unsafe_allow_html=True)
 
-col9, col10 = st.columns(2)
-with col9:
+col11, col12 = st.columns(2)
+with col11:
     st.image("рекреации/теннис.jpg")
-with col10:
+with col12:
     st.markdown("""
         <div class="colored-container">
                 <div class="highlight-blue">
@@ -136,10 +152,10 @@ with col10:
         </div>
                 """, unsafe_allow_html=True)
 
-col11, col12 = st.columns(2)
-with col11:
+col13, col14 = st.columns(2)
+with col13:
     st.image("рекреации/учебная комната.jpg")
-with col12:
+with col14:
     st.markdown("""
         <div class="colored-container">
                 <div class="highlight-blue">
@@ -153,10 +169,27 @@ with col12:
         </div>
                 """, unsafe_allow_html=True)
 
-col13, col14 = st.columns(2)
-with col13:
+col15, col16 = st.columns(2)
+with col15:
+    st.image("рекреации/кинозал.jpg")
+with col16:
+    st.markdown("""
+        <div class="colored-container">
+                <div class="highlight-blue">
+                    <div class="text-indent-content">
+                        <h3>10 ЭТАЖ</h3> 
+                    </div>
+                </div> 
+            <p>🌌 Кинозал</p>
+            <p>🕐 9:00 — 23:00</p>
+            <p>🔑 Ключ на охране</p> 
+        </div>
+                """, unsafe_allow_html=True)
+
+col17, col18 = st.columns(2)
+with col17:
     st.image("рекреации/комната отдыха.jpg")
-with col14:
+with col18:
     st.markdown("""
         <div class="colored-container">
                 <div class="highlight-blue">

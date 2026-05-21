@@ -82,7 +82,7 @@ with col2:
     st.image("инструкция вк.png",
              width=250)
     st.markdown("""
-    <p>Скриншот из раздела "Информация".<p>
+    <p>Скриншот из раздела "Информация" ⬆️<p>
                 """, unsafe_allow_html=True)
 st.divider()
 

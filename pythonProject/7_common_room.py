@@ -100,6 +100,22 @@ with col5:
             <p>ПТ: 14:00 — 17:00</p>
         </div>
                 """, unsafe_allow_html=True)
+
+col6, col7 = st.columns(2)
+with col5:
+    st.image("рекреации/сушильная.jpg")
+with col6:
+    st.markdown("""
+        <div class="colored-container">
+                <div class="highlight-blue">
+                    <div class="text-indent-content">
+                        <h3>3 ЭТАЖ</h3> 
+                    </div>
+                </div> 
+            <p>🍱 Сушильная комната</p>
+            <p>🕐 24/7</p>
+        </div>
+                """, unsafe_allow_html=True)
     
 st.markdown("""
     <div class="colored-container">

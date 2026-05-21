@@ -102,6 +102,17 @@ with col5:
                 """, unsafe_allow_html=True)
 st.divider()
 
+st.markdown("""
+    <div class="colored-container">
+            <div class="highlight-blue">
+                <div class="text-indent-content">
+                    <h3>🔐 Камера хранения | 1 ЭТАЖ</h3> 
+                </div>
+            </div>
+    </div>
+            """, unsafe_allow_html=True)
+st.divider()
+
 col6, col7 = st.columns(2)
 with col6:
     st.image("рекреации/сушильная.jpg")
@@ -117,17 +128,6 @@ with col7:
             <p>🕐 24/7</p>
         </div>
                 """, unsafe_allow_html=True)
-st.divider()
-    
-st.markdown("""
-    <div class="colored-container">
-            <div class="highlight-blue">
-                <div class="text-indent-content">
-                    <h3>🔐 Камера хранения | 1 ЭТАЖ</h3> 
-                </div>
-            </div>
-    </div>
-            """, unsafe_allow_html=True)
 st.divider()
 
 st.markdown("""

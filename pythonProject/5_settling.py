@@ -51,7 +51,7 @@ st.markdown("""
             overflow: hidden;
         }
         .docs-table th {
-            background-color: #000000;
+            background-color: #FFFFFF;
             color: black;
             padding: 12px;
             text-align: center;
@@ -75,7 +75,7 @@ st.markdown("""
             overflow: hidden;
         }
         .price-table th {
-            background-color: #000000;
+            background-color: #FFFFFF;
             color: black;
             padding: 12px;
             text-align: center;

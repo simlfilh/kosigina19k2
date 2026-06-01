@@ -125,7 +125,7 @@ with col4:
 
 col5, col6 = st.columns([1, 2])
 with col5:
-    st.image("администрация_к19/зам.начальника ЖБУ 2.jpgg")
+    st.image("администрация_к19/зам.начальника ЖБУ 2.jpg")
 with col6:
     st.markdown("""
         <div class="colored-container">

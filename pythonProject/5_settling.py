@@ -40,43 +40,79 @@ st.markdown("""
             color: black;
             line-height: 1.4;
         }
+        /* Стили для таблиц с чёрной границей и закруглёнными углами */
         .docs-table {
             width: 100%;
-            border-collapse: collapse;
+            border-collapse: separate;
+            border-spacing: 0;
             margin: 20px 0;
             font-size: 18px;
+            border: 2px solid #000000;
+            border-radius: 12px;
+            overflow: hidden;
         }
         .docs-table th {
             background-color: #2196F3;
             color: white;
             padding: 12px;
-            text-align: left;
-            border: 1px solid #ddd;
+            text-align: center;
+            border-bottom: 2px solid #000000;
+            border-right: 1px solid #000000;
+        }
+        .docs-table th:last-child {
+            border-right: none;
         }
         .docs-table td {
             padding: 12px;
-            border: 1px solid #ddd;
+            text-align: left;
             vertical-align: top;
             background-color: white;
+            border-bottom: 1px solid #000000;
+            border-right: 1px solid #000000;
         }
+        .docs-table td:last-child {
+            border-right: none;
+        }
+        .docs-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        /* Стили для таблицы стоимости */
         .price-table {
             width: 100%;
-            border-collapse: collapse;
+            border-collapse: separate;
+            border-spacing: 0;
             margin: 20px 0;
             font-size: 18px;
+            border: 2px solid #000000;
+            border-radius: 12px;
+            overflow: hidden;
         }
         .price-table th {
             background-color: #4CAF50;
             color: white;
             padding: 12px;
-            text-align: left;
-            border: 1px solid #ddd;
+            text-align: center;
+            border-bottom: 2px solid #000000;
+            border-right: 1px solid #000000;
+        }
+        .price-table th:last-child {
+            border-right: none;
         }
         .price-table td {
             padding: 12px;
-            border: 1px solid #ddd;
+            text-align: left;
             background-color: white;
+            border-bottom: 1px solid #000000;
+            border-right: 1px solid #000000;
         }
+        .price-table td:last-child {
+            border-right: none;
+        }
+        .price-table tr:last-child td {
+            border-bottom: none;
+        }
+        
         .small-note {
             font-size: 16px;
             color: #555;
@@ -231,7 +267,7 @@ st.markdown("""
             <tbody>
                 <tr><td>Новоизмайловский пр-т, 16<br>(ФГБУ «Межвузовский студенческий городок в Санкт-Петербурге»)</td><td>5 500,00 — 15 500,00</td></tr>
             </tbody>
-        <table>
+        </table>
     </div>
 """, unsafe_allow_html=True)
 
@@ -247,7 +283,7 @@ st.markdown("""
 
 st.divider()
 
-# --- Контакты (оставлены как у вас) ---
+# --- Контакты ---
 st.markdown("**Контакты для связи:**")
 st.write("Заведующий общежитием: Васильев Александр Владимирович 👨🏼‍💼")
 st.markdown("""

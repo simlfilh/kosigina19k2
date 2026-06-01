@@ -159,7 +159,7 @@ st.header("Старосты")
 # 2 ЭТАЖ
 col7, col8 = st.columns([1, 3])
 with col7:
-    st.image("администрация/староста 2.jpg", width=250)
+    st.image("администрация_к19/делопроизводитель.jpg", width=250)
 with col8:
     st.markdown("""
         <div class="colored-container">

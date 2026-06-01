@@ -107,7 +107,7 @@ with col4:
         </div>
                 """, unsafe_allow_html=True)
 with col3:
-    st.image("здание общежития.jpg",
+    st.image("здание общежития_к19.jpg",
              use_container_width=True)
 st.divider()
 

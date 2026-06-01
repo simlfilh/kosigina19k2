@@ -125,7 +125,7 @@ with col4:
 
 col5, col6 = st.columns([1, 2])
 with col5:
-    st.image("администрация/ннн.jpg")
+    st.image("администрация_к19/зам.начальника ЖБУ 2.jpgg")
 with col6:
     st.markdown("""
         <div class="colored-container">
@@ -218,7 +218,7 @@ with col10:
 
 col11, col12 = st.columns([1, 2])
 with col11:
-    st.image("администрация/ннн.jpg")
+    st.image("администрация_к19/делопроизводитель.jpg")
 with col12:
     st.markdown("""
         <div class="colored-container">
@@ -249,7 +249,7 @@ with col12:
 
 col13, col14 = st.columns([1, 2])
 with col13:
-    st.image("администрация/ннн.jpg")
+    st.image("администрация_к19/делопроизводитель 2.jpg")
 with col14:
     st.markdown("""
         <div class="colored-container">

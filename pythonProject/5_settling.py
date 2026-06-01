@@ -152,6 +152,39 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
+import pandas as pd
+
+# Создаем DataFrame из ваших данных
+data = {
+    "Адрес": [
+        "Чкаловский пр., 27",
+        "Косыгина пр., 19/2",
+        "Воронежская ул., 38",
+        "Воронежская ул., 69",
+        "Рабфаковская ул., 3/1",
+    ],
+    "Стоимость, руб.": [
+        "4 538,00 - 4 961,00",
+        "6 732,00 - 7 122,00",
+        "4 476,00 - 4 893,00",
+        "3 532,00 - 3 922,00",
+        "4 500,00 - 10 000,00",
+    ],
+}
+df = pd.DataFrame(data)
+
+# Настраиваем отображение колонок
+# column_order задает порядок, если нужно что-то скрыть
+st.dataframe(
+    df,
+    column_config={
+        "Адрес": st.column_config.TextColumn("Адрес", width="medium"),
+        "Стоимость, руб.": st.column_config.TextColumn("Стоимость, руб.", width="small"),
+    },
+    hide_index=True,  # Убираем нумерацию строк (1,2,3...)
+    use_container_width=True,  # Растягиваем на всю ширину
+)
+
 st.markdown("""
     <div class="colored-container">
             <div class="highlight-red">

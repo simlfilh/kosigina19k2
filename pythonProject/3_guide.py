@@ -70,7 +70,7 @@ st.markdown("""
 
 col1, col2 = st.columns([1, 3])
 with col1:
-    st.image("администрация/заведующий.jpg", width=250)
+    st.image("администрация_к19/заведующий_к19.jpg", width=250)
 with col2:
     st.markdown("""
         <div class="colored-container">
@@ -89,7 +89,7 @@ with col2:
 
 col3, col4 = st.columns([1, 3])
 with col3:
-    st.image("администрация/комендант.jpg", width=250)
+    st.image("администрация_к19/комендант_к19.jpg", width=250)
 with col4:
     st.markdown("""
         <div class="colored-container">
@@ -108,17 +108,17 @@ with col4:
 
 col5, col6 = st.columns([1, 3])
 with col5:
-    st.image("администрация/завхоз.jpg", width=250)
+    st.image("администрация_к19/завхоз_к19.jpg", width=250)
 with col6:
     st.markdown("""
         <div class="colored-container">
                 <div class="highlight-green">
                     <div class="text-indent-content">
-                        <h3>Заведующий хозяйственной частью | Комендант</h3> 
+                        <h3>Заведующий хозяйственной частью</h3> 
                     </div>
                 </div>
             <br>
-            <p><b>Максимова Ольга Юрьевна<b></p>
+            <p><b>Хижняк Наталья Сергеевна<b></p>
             <br> 
             <p>📞 <a href="tel:+78124589730,1132">(812) 458-97-30, доб. 1132</a></p>
             <p>📩 <a href="mailto:maksimova.o@unecon.ru">maksimova.o@unecon.ru</a></p>

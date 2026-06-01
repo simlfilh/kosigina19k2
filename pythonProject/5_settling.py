@@ -41,7 +41,6 @@ st.markdown("""
             line-height: 1.4;
         }
 
-        /* Таблица документов - с внешней чёрной рамкой */
         .docs-table {
             width: 100%;
             border-collapse: collapse;
@@ -52,8 +51,8 @@ st.markdown("""
             overflow: hidden;
         }
         .docs-table th {
-            background-color: #2196F3;
-            color: white;
+            background-color: #000000;
+            color: black;
             padding: 12px;
             text-align: center;
             border: 1px solid #000000;
@@ -66,7 +65,6 @@ st.markdown("""
             border: 1px solid #000000;
         }
 
-        /* Таблица стоимости - с внешней чёрной рамкой */
         .price-table {
             width: 100%;
             border-collapse: collapse;
@@ -77,8 +75,8 @@ st.markdown("""
             overflow: hidden;
         }
         .price-table th {
-            background-color: #4CAF50;
-            color: white;
+            background-color: #000000;
+            color: black;
             padding: 12px;
             text-align: center;
             border: 1px solid #000000;

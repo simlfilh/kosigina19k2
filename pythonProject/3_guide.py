@@ -121,7 +121,7 @@ with col6:
             <p><b>Хижняк Наталья Сергеевна<b></p>
             <br> 
             <p>📞 <a href="tel:+78124589730,1132">(812) 458-97-30, доб. 1132</a></p>
-            <p>📩 <a href="mailto:khizhnyak.ns@unecon.ru">maksimova.o@unecon.ru</a></p>
+            <p>📩 <a href="mailto:khizhnyak.ns@unecon.ru">khizhnyak.ns@unecon.ru</a></p>
         </div>
                 """, unsafe_allow_html=True)
 

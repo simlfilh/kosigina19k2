@@ -40,6 +40,61 @@ st.markdown("""
             color: black;
             line-height: 1.4;
         }
+
+        /* Таблица документов - с внешней чёрной рамкой */
+        .docs-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            border: 2px solid #000000;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .docs-table th {
+            background-color: #2196F3;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #000000;
+        }
+        .docs-table td {
+            padding: 12px;
+            text-align: left;
+            vertical-align: top;
+            background-color: white;
+            border: 1px solid #000000;
+        }
+
+        /* Таблица стоимости - с внешней чёрной рамкой */
+        .price-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            border: 2px solid #000000;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .price-table th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #000000;
+        }
+        .price-table td {
+            padding: 12px;
+            text-align: left;
+            background-color: white;
+            border: 1px solid #000000;
+        }
+
+        .small-note {
+            font-size: 16px;
+            color: #555;
+            font-style: italic;
+        }
     </style>
     <div class="colored-container">
             <div class="highlight-green">
@@ -152,67 +207,58 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-import pandas as pd
-
-# Добавляем CSS для белой таблицы
 st.markdown("""
-<style>
-    /* Убираем стандартный фон таблицы */
-    .stDataFrame {
-        background-color: white !important;
-    }
-    /* Делаем фон всех ячеек белым */
-    .stDataFrame div[data-testid="StyledDataFrameContainer"] {
-        background-color: white !important;
-    }
-    .stDataFrame table {
-        background-color: white !important;
-    }
-    .stDataFrame th {
-        background-color: white !important;
-        color: rgb(49, 51, 63) !important;
-        border-bottom: 2px solid #f63366 !important;
-    }
-    .stDataFrame td {
-        background-color: white !important;
-        border-bottom: 1px solid #e0e0e0 !important;
-    }
-    /* Убираем серый фон при наведении (опционально) */
-    .stDataFrame tbody tr:hover td {
-        background-color: #f5f5f5 !important;
-    }
-</style>
+    <div class="colored-container">
+        <div class="highlight-red">
+            <div class="text-indent-content">
+                <h3>Стоимость проживания*:</h3>
+            </div>
+        </div>
+        <table class="price-table">
+            <thead>
+                <tr><th>Адрес</th><th>Стоимость, руб.</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Чкаловский пр., 27</td><td>4 538,00 - 4 961,00</td></tr>
+                <tr><td>Косыгина пр., 19/2</td><td>6 732,00 - 7 122,00</td></tr>
+                <tr><td>Воронежская ул., 38</td><td>4 476,00 - 4 893,00</td></tr>
+                <tr><td>Воронежская ул., 69</td><td>3 532,00 - 3 922,00</td></tr>
+                <tr><td>Рабфаковская ул., 3/1</td><td>4 500,00 — 10 000,00</td></tr>
+            </tbody>
+        </table>
+        <br>
+        <p>Первоначальная оплата проживания в общежитии производится за 3 месяца.</p>
+    </div>
 """, unsafe_allow_html=True)
 
-# Создаем DataFrame из ваших данных
-data = {
-    "Адрес": [
-        "Чкаловский пр., 27",
-        "Косыгина пр., 19/2",
-        "Воронежская ул., 38",
-        "Воронежская ул., 69",
-        "Рабфаковская ул., 3/1",
-    ],
-    "Стоимость, руб.": [
-        "4 538,00 - 4 961,00",
-        "6 732,00 - 7 122,00",
-        "4 476,00 - 4 893,00",
-        "3 532,00 - 3 922,00",
-        "4 500,00 - 10 000,00",
-    ],
-}
-df = pd.DataFrame(data)
+st.markdown("""
+    <div class="colored-container">
+        <div class="highlight-blue">
+            <div class="text-indent-content">
+                <h3>Общежития сторонних организаций</h3>
+            </div>
+        </div>
+        <table class="price-table">
+            <thead>
+                <tr><th>Адрес</th><th>Стоимость, руб.</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Новоизмайловский пр-т, 16<br>(ФГБУ «Межвузовский студенческий городок в Санкт-Петербурге»)</td><td>5 500,00 — 15 500,00</td></tr>
+            </tbody>
+        </table>
+    </div>
+""", unsafe_allow_html=True)
 
-# Настраиваем отображение колонок
-st.dataframe(
-    df,
-    column_config={
-        "Адрес": st.column_config.TextColumn("Адрес", width="medium"),
-        "Стоимость, руб.": st.column_config.TextColumn("Стоимость, руб.", width="small"),
-    },
-    hide_index=True,
-    use_container_width=True,
-)
+st.markdown("""
+    <div class="colored-container">
+        <div class="small-note">
+            *Уважаемые студенты и абитуриенты!<br>
+            Обращаем ваше внимание, что цены, указанные в таблице, не являются окончательными и устанавливаются в соответствии с возможными изменениями локально-нормативных актов Университета и распоряжениями Комитета по тарифам г. Санкт-Петербург.
+        </div>
+    </div>
+""", unsafe_allow_html=True)
+
+st.divider()
 
 st.markdown("""
     <div class="colored-container">
@@ -229,7 +275,39 @@ st.markdown("""
             """, unsafe_allow_html=True)
 st.divider()
 
+# --- Контакты ---
 st.markdown("**Контакты для связи:**")
+st.write("Заведующий общежитием: Васильев Александр Владимирович 👨🏼‍💼")
+st.markdown("""
+    <style>
+        .custom-links a {
+            color: white !important;
+            text-decoration: none; 
+        }
+        .custom-links a:hover {
+            color: #ccc !important;  
+            text-decoration: underline; 
+        }
+    </style>
+    <div class="custom-links">
+        <p>📞 <a href="tel:+78125210032">(812) 521-00-32</a></p>
+    </div>
+""", unsafe_allow_html=True)
+
+st.write("Зам. зав. общежитием: Левашова Людмила Григорьевна 👩🏼‍💼")
+st.markdown("""
+    <div class="custom-links">
+        <p>📞 <a href="tel:+78125210033">(812) 521-00-33</a></p>
+    </div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+    <div class="custom-links">
+        🆘 <a href="https://t.me/helperKosygina19k2_bot">Чат со студенческим советом</a>
+    </div>
+""", unsafe_allow_html=True)
+
+
 
 
 

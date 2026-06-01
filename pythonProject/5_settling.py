@@ -72,7 +72,7 @@ st.markdown("""
             border-collapse: collapse;
             margin: 20px 0;
             font-size: 18px;
-            border: 2px solid #000000;
+            border: 10px solid #000000;
             border-radius: 12px;
             overflow: hidden;
         }

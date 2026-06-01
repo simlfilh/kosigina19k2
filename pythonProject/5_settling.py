@@ -40,11 +40,11 @@ st.markdown("""
             color: black;
             line-height: 1.4;
         }
-        /* Стили для таблиц с чёрной границей и закруглёнными углами */
+        
+        /* Таблица документов - с внешней чёрной рамкой */
         .docs-table {
             width: 100%;
-            border-collapse: separate;
-            border-spacing: 0;
+            border-collapse: collapse;
             margin: 20px 0;
             font-size: 18px;
             border: 2px solid #000000;
@@ -56,32 +56,20 @@ st.markdown("""
             color: white;
             padding: 12px;
             text-align: center;
-            border-bottom: 2px solid #000000;
-            border-right: 1px solid #000000;
-        }
-        .docs-table th:last-child {
-            border-right: none;
+            border: 1px solid #000000;
         }
         .docs-table td {
             padding: 12px;
             text-align: left;
             vertical-align: top;
             background-color: white;
-            border-bottom: 1px solid #000000;
-            border-right: 1px solid #000000;
-        }
-        .docs-table td:last-child {
-            border-right: none;
-        }
-        .docs-table tr:last-child td {
-            border-bottom: none;
+            border: 1px solid #000000;
         }
         
-        /* Стили для таблицы стоимости */
+        /* Таблица стоимости - с внешней чёрной рамкой */
         .price-table {
             width: 100%;
-            border-collapse: separate;
-            border-spacing: 0;
+            border-collapse: collapse;
             margin: 20px 0;
             font-size: 18px;
             border: 2px solid #000000;
@@ -93,24 +81,13 @@ st.markdown("""
             color: white;
             padding: 12px;
             text-align: center;
-            border-bottom: 2px solid #000000;
-            border-right: 1px solid #000000;
-        }
-        .price-table th:last-child {
-            border-right: none;
+            border: 1px solid #000000;
         }
         .price-table td {
             padding: 12px;
             text-align: left;
             background-color: white;
-            border-bottom: 1px solid #000000;
-            border-right: 1px solid #000000;
-        }
-        .price-table td:last-child {
-            border-right: none;
-        }
-        .price-table tr:last-child td {
-            border-bottom: none;
+            border: 1px solid #000000;
         }
         
         .small-note {
@@ -119,6 +96,7 @@ st.markdown("""
             font-style: italic;
         }
     </style>
+    
     <div class="colored-container">
             <div class="highlight-green">
                 <div class="text-indent-content">
@@ -240,7 +218,9 @@ st.markdown("""
             </div>
         </div>
         <table class="price-table">
-            <thead><tr><th>Адрес</th><th>Стоимость, руб.</th></tr></thead>
+            <thead>
+                <tr><th>Адрес</th><th>Стоимость, руб.</th></tr>
+            </thead>
             <tbody>
                 <tr><td>Чкаловский пр., 27</td><td>4 538,00 - 4 961,00</td></tr>
                 <tr><td>Косыгина пр., 19/2</td><td>6 732,00 - 7 122,00</td></tr>
@@ -263,7 +243,9 @@ st.markdown("""
             </div>
         </div>
         <table class="price-table">
-            <thead><tr><th>Адрес</th><th>Стоимость, руб.</th></tr></thead>
+            <thead>
+                <tr><th>Адрес</th><th>Стоимость, руб.</th></tr>
+            </thead>
             <tbody>
                 <tr><td>Новоизмайловский пр-т, 16<br>(ФГБУ «Межвузовский студенческий городок в Санкт-Петербурге»)</td><td>5 500,00 — 15 500,00</td></tr>
             </tbody>

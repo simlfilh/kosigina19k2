@@ -154,6 +154,36 @@ st.markdown("""
 
 import pandas as pd
 
+# Добавляем CSS для белой таблицы
+st.markdown("""
+<style>
+    /* Убираем стандартный фон таблицы */
+    .stDataFrame {
+        background-color: white !important;
+    }
+    /* Делаем фон всех ячеек белым */
+    .stDataFrame div[data-testid="StyledDataFrameContainer"] {
+        background-color: white !important;
+    }
+    .stDataFrame table {
+        background-color: white !important;
+    }
+    .stDataFrame th {
+        background-color: white !important;
+        color: rgb(49, 51, 63) !important;
+        border-bottom: 2px solid #f63366 !important;
+    }
+    .stDataFrame td {
+        background-color: white !important;
+        border-bottom: 1px solid #e0e0e0 !important;
+    }
+    /* Убираем серый фон при наведении (опционально) */
+    .stDataFrame tbody tr:hover td {
+        background-color: #f5f5f5 !important;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 # Создаем DataFrame из ваших данных
 data = {
     "Адрес": [
@@ -174,15 +204,14 @@ data = {
 df = pd.DataFrame(data)
 
 # Настраиваем отображение колонок
-# column_order задает порядок, если нужно что-то скрыть
 st.dataframe(
     df,
     column_config={
         "Адрес": st.column_config.TextColumn("Адрес", width="medium"),
         "Стоимость, руб.": st.column_config.TextColumn("Стоимость, руб.", width="small"),
     },
-    hide_index=True,  # Убираем нумерацию строк (1,2,3...)
-    use_container_width=True,  # Растягиваем на всю ширину
+    hide_index=True,
+    use_container_width=True,
 )
 
 st.markdown("""

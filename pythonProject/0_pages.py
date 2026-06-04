@@ -12,6 +12,14 @@ with st.sidebar:
                  "https://unecondorms.streamlit.app/",
                  type="primary",  
                  use_container_width=True)
+    st.link_button("Электронные заявки", 
+                 "https://requestsunecondorms.streamlit.app/",
+                 type="primary",  
+                 use_container_width=True)
+    st.link_button("Электронная запись в ЖБУ", 
+                 "https://appointmentzhbuforstudents.streamlit.app/",
+                 type="primary",  
+                 use_container_width=True)
 
 st.markdown(
     """

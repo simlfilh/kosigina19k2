@@ -47,6 +47,24 @@ st.markdown("""
     </div>
             """, unsafe_allow_html=True)
 
+def create_button(url, text):
+    return f"""
+    <div class="custom-button">
+        <a href="{url}" style="text-decoration: none;">
+            <button style="
+                width: 100%;
+                color: white;
+                background-color: #DC3545;
+                border: none;
+                padding: 10px 0;
+                border-radius: 5px;
+                font-weight: bold;
+                cursor: pointer;
+            ">{text}</button>
+        </a>
+    </div>
+    """
+
 col1, col2 = st.columns(2)
 with col1:
     st.markdown("""
@@ -91,10 +109,7 @@ st.markdown("""
         <p>ПТ: 13:00 — 15:00</p>
     </div>
             """, unsafe_allow_html=True)
-st.link_button("Записаться на прием", 
-                 "https://appointmentzhbuforstudents.streamlit.app/",
-                 type="primary",  
-                 use_container_width=True)
+st.markdown(create_button("https://appointmentzhbuforstudents.streamlit.app/", "Записаться на прием"), unsafe_allow_html=True)
 st.divider()
 
 st.header("Заместители начальника ЖБУ")

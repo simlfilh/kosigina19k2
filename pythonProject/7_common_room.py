@@ -139,7 +139,7 @@ with col7:
         <div class="colored-container">
                 <div class="highlight-blue">
                     <div class="text-indent-content">
-                        <h3>3 ЭТАЖ</h3> 
+                        <h3>2 ЭТАЖ</h3> 
                     </div>
                 </div> 
             <p>💨 Сушильная комната</p>

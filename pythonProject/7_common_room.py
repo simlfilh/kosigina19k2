@@ -1,5 +1,23 @@
 import streamlit as st
 
+def create_button(url, text):
+    return f"""
+    <div class="custom-button">
+        <a href="{url}" style="text-decoration: none;">
+            <button style="
+                width: 100%;
+                color: white;
+                background-color: #DC3545;
+                border: none;
+                padding: 10px 0;
+                border-radius: 5px;
+                font-weight: bold;
+                cursor: pointer;
+            ">{text}</button>
+        </a>
+    </div>
+    """
+
 st.title("🧺 Бытовое пространство")
 st.divider()
 
@@ -143,6 +161,9 @@ st.markdown("""
     </div>
             """, unsafe_allow_html=True)
 
+st.markdown(create_button("https://requestsunecondorms.streamlit.app/", "Оставить электронную заявку"), unsafe_allow_html=True)
+
+
 st.markdown("""
     <div class="colored-container">
             <div class="highlight-blue">
@@ -155,6 +176,7 @@ st.markdown("""
         <p>🕐 ПН-ПТ: 17:00 — 19:30</p>
     </div>
             """, unsafe_allow_html=True)
+st.markdown(create_button("https://requestsunecondorms.streamlit.app/", "Оставить электронную заявку"), unsafe_allow_html=True)
 st.divider()
 
 st.markdown("**Контакты для связи:**")

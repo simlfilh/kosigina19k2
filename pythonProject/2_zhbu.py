@@ -109,7 +109,7 @@ st.markdown("""
         <p>ПТ: 13:00 — 15:00</p>
     </div>
             """, unsafe_allow_html=True)
-st.markdown(create_button("https://appointmentzhbuforstudents.streamlit.app/", "Записаться на прием"), unsafe_allow_html=True)
+# убрать st.markdown(create_button("https://appointmentzhbuforstudents.streamlit.app/", "Записаться на прием"), unsafe_allow_html=True)
 st.divider()
 
 st.header("Заместители начальника ЖБУ")

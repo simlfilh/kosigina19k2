@@ -160,7 +160,7 @@ st.markdown("""
         <p>📞 При срочных авариях <a href="tel:+79117136982">+79117136982</a></p>
     </div>
             """, unsafe_allow_html=True)
-st.markdown(create_button("https://requestsunecondorms.streamlit.app/", "Оставить электронную заявку"), unsafe_allow_html=True)
+# убрать st.markdown(create_button("https://requestsunecondorms.streamlit.app/", "Оставить электронную заявку"), unsafe_allow_html=True)
 st.divider()
 
 st.markdown("""
@@ -175,7 +175,7 @@ st.markdown("""
         <p>🕐 ПН-ПТ: 17:00 — 19:30</p>
     </div>
             """, unsafe_allow_html=True)
-st.markdown(create_button("https://requestsunecondorms.streamlit.app/", "Оставить электронную заявку"), unsafe_allow_html=True)
+# убрать st.markdown(create_button("https://requestsunecondorms.streamlit.app/", "Оставить электронную заявку"), unsafe_allow_html=True)
 st.divider()
 
 st.markdown("**Контакты для связи:**")

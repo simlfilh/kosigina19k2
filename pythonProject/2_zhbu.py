@@ -91,6 +91,10 @@ st.markdown("""
         <p>ПТ: 13:00 — 15:00</p>
     </div>
             """, unsafe_allow_html=True)
+st.link_button("Записаться на прием", 
+                 "https://appointmentzhbuforstudents.streamlit.app/",
+                 type="primary",  
+                 use_container_width=True)
 st.divider()
 
 st.header("Заместители начальника ЖБУ")

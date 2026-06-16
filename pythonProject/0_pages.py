@@ -39,6 +39,7 @@ st.markdown(
 pages = {
     "🏠 ОБЩЕЖИТИЕ СПбГЭУ №3": [
         st.Page("1_info_location.py", title="— Как нас найти?")
+        st.Page("1_road_to_academic.py", title="— Путь до учебных корпусов")
     ],
     "🧑‍💻 АДМИНИСТРАЦИЯ ОБЩЕЖИТИЯ": [
         st.Page("2_zhbu.py", title="— Жилищно-бытовое управление"),

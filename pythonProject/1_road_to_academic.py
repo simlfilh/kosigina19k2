@@ -76,21 +76,7 @@ with col1:
             }
         </style>
         <div class="colored-container">
-            <h3>📍 Адрес: Санкт-Петербург, пр-т Косыгина, д. 19, к. 2</h3>
-            <div class="highlight-blue">
-                <strong>🚇 Наиболее удобный маршрут от м. Ладожская:</strong>
-            </div>
-            <p>→ м. Ладожская</p>  
-            <p>→ Выход к Ладожскому вокзалу (слева при выходе с эскалатора)</p>  
-            <p>→ Трамвай №: 8, 59, 63, 64</p>  
-            <p>→ Остановка: "ТК Народный"</p>
-            <br>
-            <div class="highlight-green">
-                <strong>🚌 Другие маршруты от м. Ладожская:</strong>
-            </div>
-            <p>🚐 Маршрутное такси: № 22, 187, 401, 531, 533</p>
-            <p>🚌 Автобус: № 21, 24, 30, 429, 453, 462, 531, 532</p>
-            <p>🚎 Троллейбус: № 1, 22</p>
+            <h3>📍 Адрес: наб. канала Грибоедова, 30-32, литер А</h3>
         </div>
     """, unsafe_allow_html=True)
 
@@ -101,7 +87,6 @@ with col2:
         </div>
     """, unsafe_allow_html=True)
     
-    # Виджет с маршрутом
     map_html = """
     <div style="position:relative;overflow:hidden;border-radius: 10px;">
         <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" 
@@ -124,50 +109,3 @@ with col2:
     """
     
     st.components.v1.html(map_html, height=460)
-
-st.divider()
-
-# Дополнительная информация
-st.markdown("""
-<style>
-    .info-footer {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        padding: 20px;
-        border-radius: 10px;
-        color: white;
-        margin-top: 20px;
-    }
-    .info-footer h3 {
-        margin-top: 0;
-    }
-    .info-footer a {
-        color: #FFD700;
-        text-decoration: none;
-    }
-    .info-footer a:hover {
-        text-decoration: underline;
-    }
-</style>
-<div class="info-footer">
-    <h3>🚀 Полезная информация</h3>
-    <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
-        <div>
-            <strong>📱 Приложения для навигации:</strong><br>
-            • Яндекс Навигатор<br>
-            • 2ГИС<br>
-            • Google Maps
-        </div>
-        <div>
-            <strong>🚕 Такси:</strong><br>
-            • Яндекс Go<br>
-            • Максим<br>
-            • Gett
-        </div>
-        <div>
-            <strong>🕐 Время работы:</strong><br>
-            • Будни: 8:00 - 22:00<br>
-            • Выходные: 9:00 - 20:00
-        </div>
-    </div>
-</div>
-""", unsafe_allow_html=True)

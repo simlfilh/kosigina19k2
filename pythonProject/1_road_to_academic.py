@@ -81,7 +81,6 @@ with col1:
                 </div>
             </div>
             <p>📍 Адрес: <b>наб. канала Грибоедова, 30-32, литер А</b></p>  
-            <br>
             <div class="route-info">
                 <h4>🗺️ Маршрут от пр. Косыгина, д. 19, к. 2</h4>
                 <div class="route-detail">
@@ -100,10 +99,6 @@ with col1:
                     💡 Нажмите на карту для детальных инструкций
                 </div>
             </div>
-            <br>
-            <p>• Факультет экономики, финансов и информационных технологий</p>
-            <p>• Экономический факультет</p>
-            <p>• Факультет менеджмента</p>
         </div>
     """, unsafe_allow_html=True)
 
@@ -114,7 +109,6 @@ with col2:
         </div>
     """, unsafe_allow_html=True)
     
-    # HTML с картой и маршрутом
     map_html = """
     <div style="position:relative;overflow:hidden;border-radius: 10px;">
         <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" 
@@ -138,49 +132,3 @@ with col2:
     
     st.components.v1.html(map_html, height=460)
 
-st.divider()
-
-# Дополнительная информация
-st.markdown("""
-<style>
-    .info-footer {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        padding: 20px;
-        border-radius: 10px;
-        color: white;
-        margin-top: 20px;
-    }
-    .info-footer h3 {
-        margin-top: 0;
-    }
-    .info-footer a {
-        color: #FFD700;
-        text-decoration: none;
-    }
-    .info-footer a:hover {
-        text-decoration: underline;
-    }
-</style>
-<div class="info-footer">
-    <h3>🚀 Полезная информация</h3>
-    <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
-        <div>
-            <strong>📱 Приложения для навигации:</strong><br>
-            • Яндекс Навигатор<br>
-            • 2ГИС<br>
-            • Google Maps
-        </div>
-        <div>
-            <strong>🚕 Такси:</strong><br>
-            • Яндекс Go<br>
-            • Максим<br>
-            • Gett
-        </div>
-        <div>
-            <strong>🕐 Время работы:</strong><br>
-            • Будни: 8:00 - 22:00<br>
-            • Выходные: 9:00 - 20:00
-        </div>
-    </div>
-</div>
-""", unsafe_allow_html=True)

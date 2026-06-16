@@ -7,10 +7,10 @@ st.set_page_config(
 )
 
 st.title("🏛️ Дорога до учебных корпусов СПбГЭУ")
-st.markdown("### 📍 От пр-т Косыгина, д. 19, к. 2")
+st.markdown("### 📍 От общежития №3 по адресу пр. Косыгина, д. 19, к. 2")
 st.divider()
 
-# Стили
+
 st.markdown("""
     <style>
         .colored-container {
@@ -75,10 +75,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# ============================================
-# КОРПУС 1: наб. канала Грибоедова, 30-32
-# ============================================
-st.markdown("### 🏛️ Корпус 1: Главный корпус")
+
 col1, col2 = st.columns(2, gap="medium")
 
 with col1:
@@ -137,10 +134,7 @@ with col2:
 
 st.divider()
 
-# ============================================
-# КОРПУС 2: Москательный переулок, 4
-# ============================================
-st.markdown("### 🏛️ Корпус 2: Москательный переулок")
+
 col3, col4 = st.columns(2, gap="medium")
 
 with col3:
@@ -199,10 +193,7 @@ with col4:
 
 st.divider()
 
-# ============================================
-# КОРПУС 3: ул. Марата, 27
-# ============================================
-st.markdown("### 🏛️ Корпус 3: ул. Марата")
+
 col5, col6 = st.columns(2, gap="medium")
 
 with col5:
@@ -261,10 +252,7 @@ with col6:
 
 st.divider()
 
-# ============================================
-# КОРПУС 4: ул. Прилукская, 3
-# ============================================
-st.markdown("### 🏛️ Корпус 4: Прилукская ул.")
+
 col7, col8 = st.columns(2, gap="medium")
 
 with col7:
@@ -323,10 +311,7 @@ with col8:
 
 st.divider()
 
-# ============================================
-# КОРПУС 5: 7-я Красноармейская, 6-8
-# ============================================
-st.markdown("### 🏛️ Корпус 5: 7-я Красноармейская")
+
 col9, col10 = st.columns(2, gap="medium")
 
 with col9:
@@ -383,49 +368,3 @@ with col10:
     """
     st.components.v1.html(map_html_5, height=460)
 
-st.divider()
-
-# Дополнительная информация
-st.markdown("""
-<style>
-    .info-footer {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        padding: 20px;
-        border-radius: 10px;
-        color: white;
-        margin-top: 20px;
-    }
-    .info-footer h3 {
-        margin-top: 0;
-    }
-    .info-footer a {
-        color: #FFD700;
-        text-decoration: none;
-    }
-    .info-footer a:hover {
-        text-decoration: underline;
-    }
-</style>
-<div class="info-footer">
-    <h3>🚀 Полезная информация</h3>
-    <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
-        <div>
-            <strong>📱 Приложения для навигации:</strong><br>
-            • Яндекс Навигатор<br>
-            • 2ГИС<br>
-            • Google Maps
-        </div>
-        <div>
-            <strong>🚕 Такси:</strong><br>
-            • Яндекс Go<br>
-            • Максим<br>
-            • Gett
-        </div>
-        <div>
-            <strong>🕐 Время работы:</strong><br>
-            • Будни: 8:00 - 22:00<br>
-            • Выходные: 9:00 - 20:00
-        </div>
-    </div>
-</div>
-""", unsafe_allow_html=True)

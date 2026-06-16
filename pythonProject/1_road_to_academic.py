@@ -103,12 +103,6 @@ with col1:
     """, unsafe_allow_html=True)
 
 with col2:
-    st.markdown("""
-        <div style="background: white; padding: 15px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-            <h3>🗺️ Маршрут на Яндекс Картах</h3>
-        </div>
-    """, unsafe_allow_html=True)
-    
     map_html = """
     <div style="position:relative;overflow:hidden;border-radius: 10px;">
         <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" 

@@ -175,13 +175,13 @@ st.header("Специалисты")
 
 col7, col8 = st.columns([1, 2])
 with col7:
-    st.image("администрация/ннн.jpg")
+    st.image("начальник отдела размещения, учета и регистрации.jpg")
 with col8:
     st.markdown("""
         <div class="colored-container">
                 <div class="highlight-blue">
                     <div class="text-indent-content">
-                        <h3>Начальник отдела размещения учета и регистрации</h3> 
+                        <h3>Начальник отдела размещения, учета и регистрации</h3> 
                     </div>
                 </div>
             <br>

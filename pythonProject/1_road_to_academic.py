@@ -24,17 +24,16 @@ with col1:
                 font-size: 21px;
                 box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             }
-            .highlight-green {
-                background-color: #C8E6C9;
-                border-radius: 10px;
-                padding: 10px;
-                margin-bottom: 10px;
-            }
             .highlight-blue {
                 background-color: #B3E5FC;
                 border-radius: 10px;
                 padding: 10px;
                 margin-bottom: 10px;
+            }
+            .text-indent-content {
+                position: relative;
+                color: black;
+                line-height: 1.4;
             }
             .route-info {
                 background-color: #FFF3E0;
@@ -76,14 +75,35 @@ with col1:
             }
         </style>
         <div class="colored-container">
-                <div class="highlight-blue">
-                    <div class="text-indent-content">
-                        <h3>Главный корпус СПбГЭУ</h3> 
-                    </div>
+            <div class="highlight-blue">
+                <div class="text-indent-content">
+                    <h3>🏛️ Главный корпус СПбГЭУ</h3> 
                 </div>
+            </div>
             <p>📍 Адрес: <b>наб. канала Грибоедова, 30-32, литер А</b></p>  
             <br>
+            <div class="route-info">
+                <h4>🗺️ Маршрут от пр. Косыгина, д. 19, к. 2</h4>
+                <div class="route-detail">
+                    <span>📏 Расстояние:</span>
+                    <span><strong>~9.5 км</strong></span>
+                </div>
+                <div class="route-detail">
+                    <span>⏱️ Время в пути:</span>
+                    <span><strong>~35 мин</strong></span>
+                </div>
+                <div class="route-detail">
+                    <span>🚌 Способ:</span>
+                    <span><strong>Общественный транспорт</strong></span>
+                </div>
+                <div style="margin-top: 10px; font-size: 14px; color: #666;">
+                    💡 Нажмите на карту для детальных инструкций
+                </div>
+            </div>
+            <br>
             <p>• Факультет экономики, финансов и информационных технологий</p>
+            <p>• Экономический факультет</p>
+            <p>• Факультет менеджмента</p>
         </div>
     """, unsafe_allow_html=True)
 
@@ -94,8 +114,73 @@ with col2:
         </div>
     """, unsafe_allow_html=True)
     
-    <div style="position:relative;overflow:hidden;">
-    <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" 
-    style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.404917%2C59.935563&mode=routes&rtext=59.944003%2C30.482263~59.931834%2C30.325628&rtn=1&rtt=mt&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzQxMDc1NhJV0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0L_RgNC-0YHQv9C10LrRgiDQmtC-0YHRi9Cz0LjQvdCwLCAxOdC6MiIKDa3b80EVqMZvQg%2C%2C~ymapsbm1%3A%2F%2Forg%3Foid%3D1357072604&utm_medium=mapframe&utm_source=maps&z=13" style="color:#eee;font-size:12px;position:absolute;top:14px;">Санкт-Петербургский государственный экономический университет: как доехать на автомобиле, общественным транспортом или пешком – Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=30.404917%2C59.935563&mode=routes&rtext=59.944003%2C30.482263~59.931834%2C30.325628&rtn=1&rtt=mt&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzQxMDc1NhJV0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0L_RgNC-0YHQv9C10LrRgiDQmtC-0YHRi9Cz0LjQvdCwLCAxOdC6MiIKDa3b80EVqMZvQg%2C%2C~ymapsbm1%3A%2F%2Forg%3Foid%3D1357072604&z=13" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+    # HTML с картой и маршрутом
+    map_html = """
+    <div style="position:relative;overflow:hidden;border-radius: 10px;">
+        <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" 
+           style="color:#eee;font-size:12px;position:absolute;top:0px;z-index:10;">
+           Санкт‑Петербург
+        </a>
+        <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.404917%2C59.935563&mode=routes&rtext=59.944003%2C30.482263~59.931834%2C30.325628&rtn=1&rtt=mt&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzQxMDc1NhJV0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0L_RgNC-0YHQv9C10LrRgiDQmtC-0YHRi9Cz0LjQvdCwLCAxOdC6MiIKDa3b80EVqMZvQg%2C%2C~ymapsbm1%3A%2F%2Forg%3Foid%3D1357072604&utm_medium=mapframe&utm_source=maps&z=13" 
+           style="color:#eee;font-size:12px;position:absolute;top:14px;z-index:10;">
+           Яндекс Карты
+        </a>
+        <iframe 
+            src="https://yandex.ru/map-widget/v1/?ll=30.404917%2C59.935563&mode=routes&rtext=59.944003%2C30.482263~59.931834%2C30.325628&rtn=1&rtt=mt&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzQxMDc1NhJV0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0L_RgNC-0YHQv9C10LrRgiDQmtC-0YHRi9Cz0LjQvdCwLCAxOdC6MiIKDa3b80EVqMZvQg%2C%2C~ymapsbm1%3A%2F%2Forg%3Foid%3D1357072604&z=13" 
+            width="100%" 
+            height="430" 
+            frameborder="1" 
+            allowfullscreen="true" 
+            style="position:relative;border-radius: 10px;border: none;">
+        </iframe>
+    </div>
+    """
     
     st.components.v1.html(map_html, height=460)
+
+st.divider()
+
+# Дополнительная информация
+st.markdown("""
+<style>
+    .info-footer {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        padding: 20px;
+        border-radius: 10px;
+        color: white;
+        margin-top: 20px;
+    }
+    .info-footer h3 {
+        margin-top: 0;
+    }
+    .info-footer a {
+        color: #FFD700;
+        text-decoration: none;
+    }
+    .info-footer a:hover {
+        text-decoration: underline;
+    }
+</style>
+<div class="info-footer">
+    <h3>🚀 Полезная информация</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
+        <div>
+            <strong>📱 Приложения для навигации:</strong><br>
+            • Яндекс Навигатор<br>
+            • 2ГИС<br>
+            • Google Maps
+        </div>
+        <div>
+            <strong>🚕 Такси:</strong><br>
+            • Яндекс Go<br>
+            • Максим<br>
+            • Gett
+        </div>
+        <div>
+            <strong>🕐 Время работы:</strong><br>
+            • Будни: 8:00 - 22:00<br>
+            • Выходные: 9:00 - 20:00
+        </div>
+    </div>
+</div>
+""", unsafe_allow_html=True)

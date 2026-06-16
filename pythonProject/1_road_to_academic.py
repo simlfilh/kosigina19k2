@@ -231,15 +231,15 @@ with col6:
     map_html_3 = """
     <div style="position:relative;overflow:hidden;border-radius: 10px;">
         <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" 
-           style="color:#eee;font-size:12px;position:absolute;top:0px;z-index:10;">
+            style="color:#eee;font-size:12px;position:absolute;top:0px;z-index:10;">
            Санкт‑Петербург
         </a>
-        <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.351577%2C59.929054&mode=routes&rtext=59.944003%2C30.482263~59.929054%2C30.351577&rtn=1&rtt=mt&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzQxMDc1NhJV0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0L_RgNC-0YHQv9C10LrRgiDQmtC-0YHRi9Cz0LjQvdCwLCAxOdC6MiIKDa3b80EVqMZvQg%2C%2C~ymapsbm1%3A%2F%2Forg%3Foid%3D1111330197&utm_medium=mapframe&utm_source=maps&z=13" 
-           style="color:#eee;font-size:12px;position:absolute;top:14px;z-index:10;">
-           Яндекс Карты
-        </a>
+        <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.377173%2C59.935563&mode=routes&rtd=0&rtext=59.944003%2C30.482263~59.927268%2C30.351716&rtt=mt&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzQxMDc1NhJV0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0L_RgNC-0YHQv9C10LrRgiDQmtC-0YHRi9Cz0LjQvdCwLCAxOdC6MiIKDa3b80EVqMZvQg%2C%2C~ymapsbm1%3A%2F%2Forg%3Foid%3D24633073600&utm_medium=mapframe&utm_source=maps&z=11.95" 
+            style="color:#eee;font-size:12px;position:absolute;top:14px;z-index:10;">
+            Яндекс Карты
+        </a>    
         <iframe 
-            src="https://yandex.ru/map-widget/v1/?ll=30.351577%2C59.929054&mode=routes&rtext=59.944003%2C30.482263~59.929054%2C30.351577&rtn=1&rtt=mt&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzQxMDc1NhJV0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0L_RgNC-0YHQv9C10LrRgiDQmtC-0YHRi9Cz0LjQvdCwLCAxOdC6MiIKDa3b80EVqMZvQg%2C%2C~ymapsbm1%3A%2F%2Forg%3Foid%3D1111330197&z=13" 
+            src="https://yandex.ru/map-widget/v1/?ll=30.377173%2C59.935563&mode=routes&rtd=0&rtext=59.944003%2C30.482263~59.927268%2C30.351716&rtt=mt&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzQxMDc1NhJV0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0L_RgNC-0YHQv9C10LrRgiDQmtC-0YHRi9Cz0LjQvdCwLCAxOdC6MiIKDa3b80EVqMZvQg%2C%2C~ymapsbm1%3A%2F%2Forg%3Foid%3D24633073600&z=11.95" 
             width="100%" 
             height="430" 
             frameborder="1" 

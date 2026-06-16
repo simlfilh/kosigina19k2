@@ -76,7 +76,7 @@ with col1:
             }
         </style>
         <div class="colored-container">
-            <h3>Главный корпус СПбГЭУ</h3>
+            <h3 class="highlight-blue">Главный корпус СПбГЭУ</h3>
             <p>📍 Адрес: наб. канала Грибоедова, 30-32, литер А</p>
         </div>
     """, unsafe_allow_html=True)

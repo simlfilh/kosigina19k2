@@ -118,77 +118,10 @@ with col2:
         </div>
     """, unsafe_allow_html=True)
     
-    # Ваш API ключ
-    API_KEY = "b1a79f0f-8389-4c37-b62c-2829d48b7241"
-    
-    # HTML с картой (упрощенная версия без обновления информации)
-    map_html = f"""
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://api-maps.yandex.ru/v3/?apikey={API_KEY}&lang=ru_RU"></script>
-        <style>
-            body {{ margin: 0; padding: 0; }}
-            #map {{ width: 100%; height: 430px; border-radius: 10px; }}
-        </style>
-    </head>
-    <body>
-        <div id="map"></div>
-        <script>
-            // Координаты в Санкт-Петербурге
-            const START_POINT = [59.9347, 30.4426];
-            const END_POINT = [59.9349, 30.3215];
-            
-            function initMap() {{
-                const map = new ymaps.Map('map', {{
-                    center: [(START_POINT[0] + END_POINT[0]) / 2, (START_POINT[1] + END_POINT[1]) / 2],
-                    zoom: 12,
-                    controls: ['zoomControl', 'fullscreenControl']
-                }});
-                
-                const startMarker = new ymaps.Placemark(START_POINT, {{
-                    hintContent: 'Косыгина д19 к2',
-                    balloonContent: '📍 Начало маршрута<br>пр. Косыгина, д. 19, корп. 2'
-                }}, {{
-                    preset: 'islands#greenDotIcon'
-                }});
-                
-                const endMarker = new ymaps.Placemark(END_POINT, {{
-                    hintContent: 'наб. канала Грибоедова 30-32',
-                    balloonContent: '📍 Конец маршрута<br>наб. канала Грибоедова, д. 30-32'
-                }}, {{
-                    preset: 'islands#redDotIcon'
-                }});
-                
-                map.geoObjects.add(startMarker);
-                map.geoObjects.add(endMarker);
-                
-                const multiRoute = new ymaps.multiRouter.MultiRoute({{
-                    referencePoints: [START_POINT, END_POINT],
-                    params: {{
-                        routingMode: 'auto',
-                        results: 1,
-                        avoidTrafficJams: true
-                    }}
-                }}, {{
-                    boundsAutoApply: true,
-                    routeStrokeColor: '#0066ff',
-                    routeStrokeWidth: 5,
-                    routeActiveStrokeColor: '#FF6B00',
-                    wayPointVisible: false,
-                    viaPointVisible: false
-                }});
-                
-                map.geoObjects.add(multiRoute);
-            }}
-            
-            ymaps.ready(initMap);
-        </script>
-    </body>
-    </html>
-    """
-    
-    # Отображаем карту в Streamlit
-    st.components.v1.html(map_html, height=460)
+    # Используем готовый виджет Яндекс Карт
+    st.components.v1.iframe(
+        src="https://yandex.ru/map-widget/v1/?um=constructor%3A1a2b3c4d5e6f7g8h9i0j&source=constructor",
+        width=None,
+        height=430,
+        scrolling=False
+    )

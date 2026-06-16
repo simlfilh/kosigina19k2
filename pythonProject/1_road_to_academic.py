@@ -349,15 +349,15 @@ with col10:
     map_html_5 = """
     <div style="position:relative;overflow:hidden;border-radius: 10px;">
         <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" 
-           style="color:#eee;font-size:12px;position:absolute;top:0px;z-index:10;">
-           Санкт‑Петербург
+            style="color:#eee;font-size:12px;position:absolute;top:0px;z-index:10;">
+            Санкт‑Петербург
         </a>
-        <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.312738%2C59.912684&mode=routes&rtext=59.944003%2C30.482263~59.912684%2C30.312738&rtn=1&rtt=mt&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzQxMDc1NhJV0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0L_RgNC-0YHQv9C10LrRgiDQmtC-0YHRi9Cz0LjQvdCwLCAxOdC6MiIKDa3b80EVqMZvQg%2C%2C~ymapsbm1%3A%2F%2Forg%3Foid%3D1133595004&utm_medium=mapframe&utm_source=maps&z=13" 
-           style="color:#eee;font-size:12px;position:absolute;top:14px;z-index:10;">
-           Яндекс Карты
+        <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.399920%2C59.927935&mode=routes&rtext=59.944003%2C30.482263~59.911288%2C30.316130&rtt=mt&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DIgoNrdvzQRWpxm9C~ymapsbm1%3A%2F%2Forg%3Foid%3D1002219955&utm_medium=mapframe&utm_source=maps&z=11.27" style="color:#eee;font-size:12px;position:absolute;top:14px;">
+            style="color:#eee;font-size:12px;position:absolute;top:14px;z-index:10;">
+            Яндекс Карты
         </a>
         <iframe 
-            src="https://yandex.ru/map-widget/v1/?ll=30.312738%2C59.912684&mode=routes&rtext=59.944003%2C30.482263~59.912684%2C30.312738&rtn=1&rtt=mt&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzQxMDc1NhJV0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0L_RgNC-0YHQv9C10LrRgiDQmtC-0YHRi9Cz0LjQvdCwLCAxOdC6MiIKDa3b80EVqMZvQg%2C%2C~ymapsbm1%3A%2F%2Forg%3Foid%3D1133595004&z=13" 
+            src="https://yandex.ru/map-widget/v1/?ll=30.399920%2C59.927935&mode=routes&rtext=59.944003%2C30.482263~59.911288%2C30.316130&rtt=mt&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DIgoNrdvzQRWpxm9C~ymapsbm1%3A%2F%2Forg%3Foid%3D1002219955&z=11.27" 
             width="100%" 
             height="430" 
             frameborder="1" 
@@ -367,4 +367,36 @@ with col10:
     </div>
     """
     st.components.v1.html(map_html_5, height=460)
+
+st.markdown("**Контакты для связи:**")
+
+st.write("Заведующий общежитием: Васильев Александр Владимирович 👨🏼‍💼")
+st.markdown("""
+    <style>
+        .custom-links a {
+            color: white !important;
+            text-decoration: none; 
+        }
+        .custom-links a:hover {
+            color: #ccc !important;  
+            text-decoration: underline; 
+        }
+    </style>
+    <div class="custom-links">
+        <p>📞 <a href="tel:+78125210032">(812) 521-00-32</a></p>
+    </div>
+""", unsafe_allow_html=True)
+
+st.write("Зам. зав. общежитием: Левашова Людмила Григорьевна 👩🏼‍💼")
+st.markdown("""
+    <div class="custom-links">
+        <p>📞 <a href="tel:+78125210033">(812) 521-00-33</a></p>
+    </div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+    <div class="custom-links">
+        🆘 <a href="https://t.me/helperKosygina19k2_bot">Чат со студенческим советом</a>
+    </div>
+""", unsafe_allow_html=True)
 

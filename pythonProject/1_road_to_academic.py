@@ -91,25 +91,6 @@ with col1:
             <p>🚐 Маршрутное такси: № 22, 187, 401, 531, 533</p>
             <p>🚌 Автобус: № 21, 24, 30, 429, 453, 462, 531, 532</p>
             <p>🚎 Троллейбус: № 1, 22</p>
-            
-            <div class="route-info">
-                <h4>🗺️ Маршрут до наб. канала Грибоедова 30-32</h4>
-                <div class="route-detail">
-                    <span>📏 Расстояние:</span>
-                    <span><strong>~9.5 км</strong></span>
-                </div>
-                <div class="route-detail">
-                    <span>⏱️ Время в пути:</span>
-                    <span><strong>~35 мин</strong></span>
-                </div>
-                <div class="route-detail">
-                    <span>🚗 Способ:</span>
-                    <span><strong>Общественный транспорт</strong></span>
-                </div>
-                <div style="margin-top: 10px; font-size: 14px; color: #666;">
-                    💡 Нажмите на карту для детальных инструкций
-                </div>
-            </div>
         </div>
     """, unsafe_allow_html=True)
 

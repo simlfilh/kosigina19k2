@@ -82,7 +82,6 @@ with col1:
             </div>
             <br>
             <p>📍 Адрес: <b>наб. канала Грибоедова, 30-32, литер А</b></p>  
-            <br>
             <div class="route-info">
                 <h4>🗺️ Маршрут от пр. Косыгина, д. 19, к. 2</h4>
                 <div class="route-detail">

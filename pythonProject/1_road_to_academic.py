@@ -135,7 +135,7 @@ with col2:
     """, unsafe_allow_html=True)
     
     # Вставьте ваш API ключ вместо YOUR_API_KEY
-    YOUR_API_KEY = "YOUR_API_KEY"  # Замените на ваш ключ
+    YOUR_API_KEY = "b1a79f0f-8389-4c37-b62c-2829d48b7241"  # Замените на ваш ключ
     
     yandex_map_html = f"""
     <div class="yandex-map-container">

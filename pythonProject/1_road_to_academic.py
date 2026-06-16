@@ -383,6 +383,7 @@ with col10:
     </div>
     """
     st.components.v1.html(map_html_5, height=460)
+st.divider()
 
 st.markdown("**Контакты для связи:**")
 

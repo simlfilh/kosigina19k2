@@ -23,6 +23,22 @@ st.markdown("""
             font-size: 21px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
+        .image-container {
+            background-color: #FFFFFF; 
+           border-radius: 10px;      
+           padding: 20px;            
+           margin-bottom: 10px;      
+            height: 100%;           
+           display: flex;
+           align-items: center;     
+           justify-content: center; 
+        }
+        .image-container img {
+           max-width: 100%;
+            max-height: 100%;
+           border-radius: 5px;     
+           object-fit: contain;    
+        }
         .highlight-blue {
             background-color: #B3E5FC;
             border-radius: 10px;

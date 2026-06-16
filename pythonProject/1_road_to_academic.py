@@ -94,25 +94,6 @@ with col2:
         </div>
     """, unsafe_allow_html=True)
     
-    map_html = """
-    <div style="position:relative;overflow:hidden;border-radius: 10px;">
-        <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" 
-           style="color:#eee;font-size:12px;position:absolute;top:0px;z-index:10;">
-           Санкт‑Петербург
-        </a>
-        <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.404917%2C59.935563&mode=routes&rtext=59.944003%2C30.482263~59.931834%2C30.325628&rtt=mt&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzQxMDc1NhJV0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0L_RgNC-0YHQv9C10LrRgiDQmtC-0YHRi9Cz0LjQvdCwLCAxOdC6MiIKDa3b80EVqMZvQg%2C%2C~ymapsbm1%3A%2F%2Forg%3Foid%3D1357072604&utm_medium=mapframe&utm_source=maps&z=13.44" 
-           style="color:#eee;font-size:12px;position:absolute;top:14px;z-index:10;">
-           Яндекс Карты
-        </a>
-        <iframe 
-            src="https://yandex.ru/map-widget/v1/?ll=30.404917%2C59.935563&mode=routes&rtext=59.944003%2C30.482263~59.931834%2C30.325628&rtt=mt&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzQxMDc1NhJV0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0L_RgNC-0YHQv9C10LrRgiDQmtC-0YHRi9Cz0LjQvdCwLCAxOdC6MiIKDa3b80EVqMZvQg%2C%2C~ymapsbm1%3A%2F%2Forg%3Foid%3D1357072604&z=13.44" 
-            width="100%" 
-            height="430" 
-            frameborder="1" 
-            allowfullscreen="true" 
-            style="position:relative;border-radius: 10px;border: none;">
-        </iframe>
-    </div>
-    """
+    map_html = <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.404917%2C59.935563&mode=routes&rtext=59.944003%2C30.482263~59.931834%2C30.325628&rtn=1&rtt=mt&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzQxMDc1NhJV0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0L_RgNC-0YHQv9C10LrRgiDQmtC-0YHRi9Cz0LjQvdCwLCAxOdC6MiIKDa3b80EVqMZvQg%2C%2C~ymapsbm1%3A%2F%2Forg%3Foid%3D1357072604&utm_medium=mapframe&utm_source=maps&z=13" style="color:#eee;font-size:12px;position:absolute;top:14px;">Санкт-Петербургский государственный экономический университет: как доехать на автомобиле, общественным транспортом или пешком – Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=30.404917%2C59.935563&mode=routes&rtext=59.944003%2C30.482263~59.931834%2C30.325628&rtn=1&rtt=mt&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzQxMDc1NhJV0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0L_RgNC-0YHQv9C10LrRgiDQmtC-0YHRi9Cz0LjQvdCwLCAxOdC6MiIKDa3b80EVqMZvQg%2C%2C~ymapsbm1%3A%2F%2Forg%3Foid%3D1357072604&z=13" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
     
     st.components.v1.html(map_html, height=460)

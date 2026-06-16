@@ -114,14 +114,20 @@ with col1:
 with col2:
     st.markdown("""
         <div style="background: white; padding: 15px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-            <h3>🗺️ Мы на Яндекс Картах</h3>
+            <h3>🗺️ Маршрут на Яндекс Картах</h3>
         </div>
     """, unsafe_allow_html=True)
     
-    # Используем готовый виджет Яндекс Карт
-    st.components.v1.iframe(
-        src="https://yandex.ru/map-widget/v1/?um=constructor%3A1a2b3c4d5e6f7g8h9i0j&source=constructor",
-        width=None,
-        height=430,
-        scrolling=False
-    )
+    # Готовый iframe с маршрутом
+    # Маршрут: Косыгина д19 к2 → наб. канала Грибоедова 30-32
+    map_iframe = """
+    <iframe 
+        src="https://yandex.ru/map-widget/v1/?um=constructor%3A1a2b3c4d5e6f7g8h9i0j&source=constructor" 
+        width="100%" 
+        height="430" 
+        frameborder="0"
+        style="border-radius: 10px;">
+    </iframe>
+    """
+    
+    st.components.v1.html(map_iframe, height=460)

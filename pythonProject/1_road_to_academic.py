@@ -121,7 +121,7 @@ with col2:
     # Ваш API ключ
     API_KEY = "b1a79f0f-8389-4c37-b62c-2829d48b7241"
     
-    # HTML с картой
+    # HTML с картой (упрощенная версия без обновления информации)
     map_html = f"""
     <!DOCTYPE html>
     <html>
@@ -138,18 +138,16 @@ with col2:
         <div id="map"></div>
         <script>
             // Координаты в Санкт-Петербурге
-            const START_POINT = [59.9347, 30.4426]; // Косыгина д19 к2
-            const END_POINT = [59.9349, 30.3215];   // наб. канала Грибоедова 30-32
+            const START_POINT = [59.9347, 30.4426];
+            const END_POINT = [59.9349, 30.3215];
             
             function initMap() {{
-                // Создаем карту
                 const map = new ymaps.Map('map', {{
                     center: [(START_POINT[0] + END_POINT[0]) / 2, (START_POINT[1] + END_POINT[1]) / 2],
                     zoom: 12,
                     controls: ['zoomControl', 'fullscreenControl']
                 }});
                 
-                // Создаем метки
                 const startMarker = new ymaps.Placemark(START_POINT, {{
                     hintContent: 'Косыгина д19 к2',
                     balloonContent: '📍 Начало маршрута<br>пр. Косыгина, д. 19, корп. 2'
@@ -167,7 +165,6 @@ with col2:
                 map.geoObjects.add(startMarker);
                 map.geoObjects.add(endMarker);
                 
-                // Строим маршрут
                 const multiRoute = new ymaps.multiRouter.MultiRoute({{
                     referencePoints: [START_POINT, END_POINT],
                     params: {{
@@ -185,35 +182,8 @@ with col2:
                 }});
                 
                 map.geoObjects.add(multiRoute);
-                
-                // Обновляем информацию
-                multiRoute.events.add('ready', function() {{
-                    const routes = multiRoute.getRoutes();
-                    const firstRoute = routes[0];
-                    const length = firstRoute.getLength();
-                    const time = firstRoute.getTime();
-                    
-                    // Обновляем элементы в родительском окне
-                    const distanceElem = window.parent.document.getElementById('distance');
-                    const timeElem = window.parent.document.getElementById('time');
-                    
-                    if (distanceElem) {{
-                        distanceElem.textContent = (length / 1000).toFixed(1) + ' км';
-                    }}
-                    if (timeElem) {{
-                        const minutes = Math.floor(time / 60);
-                        if (minutes < 60) {{
-                            timeElem.textContent = '~' + minutes + ' мин';
-                        }} else {{
-                            const hours = Math.floor(minutes / 60);
-                            const mins = minutes % 60;
-                            timeElem.textContent = '~' + hours + ' ч ' + mins + ' мин';
-                        }}
-                    }}
-                }});
             }}
             
-            // Загружаем карту
             ymaps.ready(initMap);
         </script>
     </body>
@@ -222,75 +192,3 @@ with col2:
     
     # Отображаем карту в Streamlit
     st.components.v1.html(map_html, height=460)
-
-st.divider()
-
-# Дополнительная информация
-st.markdown("""
-<style>
-    .info-footer {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        padding: 20px;
-        border-radius: 10px;
-        color: white;
-        margin-top: 20px;
-    }
-    .info-footer h3 {
-        margin-top: 0;
-    }
-    .info-footer a {
-        color: #FFD700;
-        text-decoration: none;
-    }
-    .info-footer a:hover {
-        text-decoration: underline;
-    }
-</style>
-<div class="info-footer">
-    <h3>🚀 Полезная информация</h3>
-    <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
-        <div>
-            <strong>📱 Приложения для навигации:</strong><br>
-            • Яндекс Навигатор<br>
-            • 2ГИС<br>
-            • Google Maps
-        </div>
-        <div>
-            <strong>🚕 Такси:</strong><br>
-            • Яндекс Go<br>
-            • Максим<br>
-            • Gett
-        </div>
-        <div>
-            <strong>🕐 Время работы:</strong><br>
-            • Будни: 8:00 - 22:00<br>
-            • Выходные: 9:00 - 20:00
-        </div>
-    </div>
-</div>
-""", unsafe_allow_html=True)
-
-# JavaScript для обновления информации из iframe
-st.markdown("""
-<script>
-    // Функция для обновления информации о маршруте
-    function updateRouteInfo(distance, time) {
-        const distanceElem = document.getElementById('distance');
-        const timeElem = document.getElementById('time');
-        
-        if (distanceElem) {
-            distanceElem.textContent = distance + ' км';
-        }
-        if (timeElem) {
-            const minutes = Math.floor(time / 60);
-            if (minutes < 60) {
-                timeElem.textContent = '~' + minutes + ' мин';
-            } else {
-                const hours = Math.floor(minutes / 60);
-                const mins = minutes % 60;
-                timeElem.textContent = '~' + hours + ' ч ' + mins + ' мин';
-            }
-        }
-    }
-</script>
-""", unsafe_allow_html=True)

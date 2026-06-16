@@ -47,6 +47,10 @@ with col1:
                 margin: 0 0 10px 0;
                 color: #E65100;
             }
+            .route-info p {
+                margin: 5px 0;
+                font-size: 16px;
+            }
             .route-detail {
                 display: flex;
                 justify-content: space-between;
@@ -116,7 +120,7 @@ with col2:
         </div>
     """, unsafe_allow_html=True)
     
-    # Вставляем виджет с маршрутом
+    # Виджет с маршрутом
     map_html = """
     <div style="position:relative;overflow:hidden;border-radius: 10px;">
         <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" 

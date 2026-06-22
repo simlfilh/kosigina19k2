@@ -3,7 +3,7 @@ import streamlit as st
 st.title("📲 Наши социальные сети")
 st.divider()
 
-col1, col2 = st.columns([2, 1])
+col1, col2 = st.columns(2)
 with col1:
     st.markdown("""
         <style>
@@ -56,8 +56,16 @@ with col1:
             <p>• Доступ к ИНФО-Каналу общежития в TG см. в разделе "Ссылки" в ВК-сообществе.</p>
         </div>
                 """, unsafe_allow_html=True)
-
+    
+with col2:
+    st.image("инструкция вк.png",
+             width=250)
     st.markdown("""
+    <p>Скриншот из раздела "Информация" ⬆️<p>
+                """, unsafe_allow_html=True)
+st.divider()
+
+st.markdown("""
         <div class="colored-container">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
                 <div style="display: flex; align-items: center; gap: 20px;">
@@ -68,7 +76,7 @@ with col1:
         </div>
                 """, unsafe_allow_html=True)
 
-    st.markdown("""
+st.markdown("""
         <div class="colored-container">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
                 <div style="display: flex; align-items: center; gap: 20px;">
@@ -78,11 +86,18 @@ with col1:
                 </div>
         </div>
                 """, unsafe_allow_html=True)
-with col2:
-    st.image("инструкция вк.png",
-             width=250)
-    st.markdown("""
-    <p>Скриншот из раздела "Информация" ⬆️<p>
+st.divider()
+
+st.markdown("""
+        <div class="colored-container">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+                <div style="display: flex; align-items: center; gap: 20px;">
+                    <a href="https://max.ru/id7840483155_gos17" target="_blank">
+                        <i class="fas fa-comment-dots fa-2x" style="color: #00BFFF;"></i>
+                    </a>
+                    <h3>Канал "Общежития СПбГЭУ" в MAX.</h3>
+                </div>
+        </div>
                 """, unsafe_allow_html=True)
 st.divider()
 

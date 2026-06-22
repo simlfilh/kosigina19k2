@@ -81,15 +81,23 @@ with col2:
         </div>
                 """, unsafe_allow_html=True)
     st.components.v1.html("""
-        <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.2520184102325!2d30.48016407706522!3d59.94455297491812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46962de52f91ffd5%3A0x149fa7d72033b95b!2z0L_RgC4g0JrQvtGB0YvQs9C40L3QsCwgMTkg0LrQvtGA0L_Rg9GBIDIsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTU0MjY!5e0!3m2!1sru!2sru!4v1749385448662!5m2!1sru!2sru" 
-            width="100%" 
-            height="430" 
-            style="border:0; border-radius: 10px;" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+        <div style="position:relative;overflow:hidden;">
+            <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" 
+                style="color:#eee;font-size:12px;position:absolute;top:0px;">
+                Санкт‑Петербург
+            </a>
+            <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.462418%2C59.938208&mode=routes&rtext=59.932429%2C30.439201~59.944003%2C30.482263&rtt=mt&ruri=ymapsbm1%3A%2F%2Ftransit%2Fstop%3Fid%3Dstation__9805940~&utm_medium=mapframe&utm_source=maps&z=14.94" 
+                style="color:#eee;font-size:12px;position:absolute;top:14px;">
+                Яндекс Карты
+            </a>
+            <iframe src="https://yandex.ru/map-widget/v1/?ll=30.462418%2C59.938208&mode=routes&rtext=59.932429%2C30.439201~59.944003%2C30.482263&rtt=mt&ruri=ymapsbm1%3A%2F%2Ftransit%2Fstop%3Fid%3Dstation__9805940~&z=14.94" 
+                width="100%" 
+                height="400" 
+                frameborder="1" 
+                allowfullscreen="true" 
+                style="position:relative;border-radius: 10px;border: none;">
+            </iframe>
+        </div>
                     """, height=440)
 st.divider()
 

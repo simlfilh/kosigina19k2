@@ -84,15 +84,14 @@ with col1:
 with col2:
     st.components.v1.html("""
         <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.123456789!2d30.3239012!3d59.9314116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x203c18dc7f0eaf89!2z0JbQuNCy0LjQvdC-LdCy0LXRgNC90LDRjyDQv9GA0L7QsdGA0LDQttC10L3QuNGP!5e0!3m2!1sru!2sru!4v1234567890!5m2!1sru!2sru" 
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac1e2590fd5b6de05293321a22e9c4acfacdbff29dfc50eef266e905a4b03ac5e&amp;source=constructor" 
             width="100%" 
-            height="290" 
-            style="border:0; border-radius: 10px;" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
+            height="390" 
+            frameborder="1" 
+            allowfullscreen="true" 
+            style="position:relative;border-radius: 10px;border: none;">
         </iframe>
-                    """, height=300)
+                    """, height=400)
 
 st.markdown("""
     <div class="colored-container">

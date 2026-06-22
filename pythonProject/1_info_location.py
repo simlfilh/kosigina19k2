@@ -77,7 +77,7 @@ with col1:
 with col2:
     st.markdown("""
         <div class="colored-container">
-            <h3>Мы в Google Maps ⬇️</h3>
+            <h3>Мы в Яндекс Картах ⬇️</h3>
         </div>
                 """, unsafe_allow_html=True)
     st.components.v1.html("""

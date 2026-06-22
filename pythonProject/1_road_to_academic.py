@@ -108,11 +108,11 @@ with col1:
                 <h4>🗺️ Маршрут от пр. Косыгина, д. 19, к. 2</h4>
                 <div class="route-detail">
                     <span>📏 Расстояние:</span>
-                    <span><strong>~9.5 км</strong></span>
+                    <span><strong>~11 км</strong></span>
                 </div>
                 <div class="route-detail">
                     <span>⏱️ Время в пути:</span>
-                    <span><strong>~35 мин</strong></span>
+                    <span><strong>~45-50 мин</strong></span>
                 </div>
                 <div class="route-detail">
                     <span>🚌 Способ:</span>
@@ -167,11 +167,11 @@ with col3:
                 <h4>🗺️ Маршрут от пр. Косыгина, д. 19, к. 2</h4>
                 <div class="route-detail">
                     <span>📏 Расстояние:</span>
-                    <span><strong>~10 км</strong></span>
+                    <span><strong>~11.5 км</strong></span>
                 </div>
                 <div class="route-detail">
                     <span>⏱️ Время в пути:</span>
-                    <span><strong>~40 мин</strong></span>
+                    <span><strong>~45-50 мин</strong></span>
                 </div>
                 <div class="route-detail">
                     <span>🚌 Способ:</span>
@@ -230,7 +230,7 @@ with col5:
                 </div>
                 <div class="route-detail">
                     <span>⏱️ Время в пути:</span>
-                    <span><strong>~37 мин</strong></span>
+                    <span><strong>~39 мин</strong></span>
                 </div>
                 <div class="route-detail">
                     <span>🚌 Способ:</span>
@@ -285,11 +285,11 @@ with col7:
                 <h4>🗺️ Маршрут от пр. Косыгина, д. 19, к. 2</h4>
                 <div class="route-detail">
                     <span>📏 Расстояние:</span>
-                    <span><strong>~9 км</strong></span>
+                    <span><strong>~9.5 км</strong></span>
                 </div>
                 <div class="route-detail">
                     <span>⏱️ Время в пути:</span>
-                    <span><strong>~35 мин</strong></span>
+                    <span><strong>~50-60 мин</strong></span>
                 </div>
                 <div class="route-detail">
                     <span>🚌 Способ:</span>
@@ -344,11 +344,11 @@ with col9:
                 <h4>🗺️ Маршрут от пр. Косыгина, д. 19, к. 2</h4>
                 <div class="route-detail">
                     <span>📏 Расстояние:</span>
-                    <span><strong>~9.5 км</strong></span>
+                    <span><strong>~12.5 км</strong></span>
                 </div>
                 <div class="route-detail">
                     <span>⏱️ Время в пути:</span>
-                    <span><strong>~38 мин</strong></span>
+                    <span><strong>~50-60 мин</strong></span>
                 </div>
                 <div class="route-detail">
                     <span>🚌 Способ:</span>

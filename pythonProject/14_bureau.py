@@ -77,13 +77,12 @@ with col1:
 with col2:
     st.components.v1.html("""
         <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.0260521530026!2d30.321633177064342!3d59.93170987491158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631068482e895%3A0x15dbd342b4e6a45d!2z0JHRjtGA0L4g0L_RgNC-0L_Rg9GB0LrQvtCy!5e0!3m2!1sru!2sru!4v1749661667659!5m2!1sru!2sru" 
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac1e2590fd5b6de05293321a22e9c4acfacdbff29dfc50eef266e905a4b03ac5e&amp;source=constructor" 
             width="100%" 
-            height="440" 
-            style="border:0; border-radius: 10px;" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
+            height="430" 
+            frameborder="1" 
+            allowfullscreen="true" 
+            style="position:relative;border-radius: 10px;border: none;">
         </iframe>, 
                     """, height=450)
 st.divider()

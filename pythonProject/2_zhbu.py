@@ -84,7 +84,7 @@ with col1:
 with col2:
     st.components.v1.html("""
         <iframe 
-            src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac1e2590fd5b6de05293321a22e9c4acfacdbff29dfc50eef266e905a4b03ac5e&amp;source=constructor" 
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3Acd7334758ee1ba00104aeb98b52f709c30976706627484b4df64a2d1206ac32c&amp;source=constructor" 
             width="100%" 
             height="390" 
             frameborder="1" 

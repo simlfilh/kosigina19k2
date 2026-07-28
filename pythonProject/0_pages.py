@@ -43,8 +43,8 @@ pages = {
     ],
     "🧑‍💻 АДМИНИСТРАЦИЯ ОБЩЕЖИТИЯ": [
         st.Page("2_zhbu.py", title="— Жилищно-бытовое управление"),
-        st.Page("3_guide.py", title="— Руководство общежития"),
-        st.Page("4_student_council.py", title="— Студенческий совет")
+        st.Page("3_guide.py", title="— Руководство общежития")
+        # st.Page("4_student_council.py", title="— Студенческий совет")
     ],
     "🧳 ЗАСЕЛЕНИЕ В ОБЩЕЖИТИЕ": [
         st.Page("5_settling.py", title="— Поселение в общежитие"),

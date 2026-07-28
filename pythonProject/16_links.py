@@ -43,6 +43,36 @@ with col1:
                 color: black;
                 line-height: 1.4;
             }
+            .fab {
+               font-size: 24px;
+               color: #0088cc; /* Цвет иконок Telegram */
+            }
+            .custom-links a {
+                color: white !important;
+                text-decoration: none; 
+            }
+            .custom-links a:hover {
+                color: #ccc !important;  
+                text-decoration: underline; 
+            }
+            .support-container {
+                background-color: #e8f4f8;
+                border-radius: 10px;
+                padding: 15px;
+                margin-top: 10px;
+                border-left: 4px solid #0088cc;
+            }
+            .support-container p {
+                margin: 5px 0;
+                font-size: 16px;
+            }
+            .support-container a {
+                color: #0088cc !important;
+                text-decoration: none;
+            }
+            .support-container a:hover {
+                text-decoration: underline;
+            }
         </style>
         <div class="colored-container">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -76,16 +106,16 @@ st.markdown("""
         </div>
                 """, unsafe_allow_html=True)
 
-st.markdown("""
-        <div class="colored-container">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-                <div style="display: flex; align-items: center; gap: 20px;">
-                    <a href="https://t.me/helperKosygina19k2_bot" target="_blank">
-                    <i class="fab fa-telegram fa-2x"></i></a>
-                    <h3>ПОДДЕРЖКА Общежития №3.</h3>
-                </div>
-        </div>
-                """, unsafe_allow_html=True)
+# st.markdown("""
+#         <div class="colored-container">
+#             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+#                 <div style="display: flex; align-items: center; gap: 20px;">
+#                     <a href="https://t.me/helperKosygina19k2_bot" target="_blank">
+#                     <i class="fab fa-telegram fa-2x"></i></a>
+#                     <h3>ПОДДЕРЖКА Общежития №3.</h3>
+#                 </div>
+#         </div>
+#                 """, unsafe_allow_html=True)
 st.divider()
 
 st.markdown("""
@@ -124,6 +154,15 @@ st.write("Зам. зав. общежитием: Левашова Людмила 
 st.markdown("""
     <div class="custom-links">
         <p>📞 <a href="tel:+78125210033">(812) 521-00-33</a></p>
+    </div>
+""", unsafe_allow_html=True)
+st.divider()
+
+st.markdown("""
+    <div class="support-container">
+        <p><strong>🛠️ Техническая поддержка</strong></p>
+        <p>📧 <a href="mailto:savchenko.va@unecon.ru">savchenko.va@unecon.ru</a></p>
+        <p>📞 <a href="tel:+78124589730,4299">(812) 458-97-30, доб. 4299</a></p>
     </div>
 """, unsafe_allow_html=True)
 

@@ -148,8 +148,8 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-st.markdown("""
-    <div class="custom-links">
-        🆘 <a href="https://t.me/helperKosygina19k2_bot">Чат со студенческим советом</a>
-    </div>
-""", unsafe_allow_html=True)
+# st.markdown("""
+#     <div class="custom-links">
+#         🆘 <a href="https://t.me/helperKosygina19k2_bot">Чат со студенческим советом</a>
+#     </div>
+# """, unsafe_allow_html=True)

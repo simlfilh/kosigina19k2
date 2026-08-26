@@ -116,7 +116,7 @@ st.divider()
 #                 </div>
 #         </div>
 #                 """, unsafe_allow_html=True)
-st.divider()
+# st.divider()
 
 st.markdown("""
         <div class="colored-container">

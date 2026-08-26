@@ -95,16 +95,16 @@ with col2:
                 """, unsafe_allow_html=True)
 st.divider()
 
-st.markdown("""
-        <div class="colored-container">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-                <div style="display: flex; align-items: center; gap: 20px;">
-                    <a href="https://t.me/Kosygina19k2_bot" target="_blank">
-                    <i class="fab fa-telegram fa-2x"></i></a>
-                    <h3>БОТ Общежития №3.</h3>
-                </div>
-        </div>
-                """, unsafe_allow_html=True)
+# st.markdown("""
+#         <div class="colored-container">
+#             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+#                 <div style="display: flex; align-items: center; gap: 20px;">
+#                     <a href="https://t.me/Kosygina19k2_bot" target="_blank">
+#                     <i class="fab fa-telegram fa-2x"></i></a>
+#                     <h3>БОТ Общежития №3.</h3>
+#                 </div>
+#         </div>
+#                 """, unsafe_allow_html=True)
 
 # st.markdown("""
 #         <div class="colored-container">

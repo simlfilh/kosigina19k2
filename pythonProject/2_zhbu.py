@@ -101,11 +101,11 @@ st.markdown("""
                 </div>
             </div>
         <br>
-        <p>ПН: 14:00 — 16:30</p>  
-        <p>ВТ: 14:00 — 16:30</p>  
+        <p>ПН: 14:00 — 17:00</p>  
+        <p>ВТ: 14:00 — 17:00</p>  
         <p>СР: приема нет</p>
-        <p>ЧТ: 14:00 — 16:30</p>
-        <p>ПТ: 13:00 — 15:00</p>
+        <p>ЧТ: 14:00 — 17:00</p>
+        <p>ПТ: 14:00 — 16:45</p>
     </div>
             """, unsafe_allow_html=True)
 st.markdown(create_button("https://appointmentzhbuforstudents.streamlit.app/", "Записаться на прием"), unsafe_allow_html=True)

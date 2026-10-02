@@ -120,7 +120,7 @@ with col4:
         <div class="colored-container">
                 <div class="highlight-green">
                     <div class="text-indent-content">
-                        <h3>И. о. начальника ЖБУ</h3> 
+                        <h3>Начальник ЖБУ</h3> 
                     </div>
                 </div>
             <br>

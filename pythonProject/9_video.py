@@ -1,7 +1,8 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-# https://vkvideo.ru/video-241063201_456239021
+st.title("🏠 Видеообзор общежития СПбГЭУ №3 | пр-т Косыгина, д. 19, к. 2")
+st.divider()
 
 iframe_html = f"""
 <iframe 

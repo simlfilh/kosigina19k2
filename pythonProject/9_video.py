@@ -5,7 +5,7 @@ import streamlit.components.v1 as components
 
 iframe_html = f"""
 <iframe 
-    src="https://vk.com/video_ext.php?oid=-241063201&id=456239017&hd=2" 
+    src="https://vk.com/video_ext.php?oid=-241063201&id=456239021&hd=2" 
     width="640" 
     height="360" 
     frameborder="0" 

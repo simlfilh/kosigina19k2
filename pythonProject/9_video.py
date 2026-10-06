@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-video_id = "-241063201_456239017"  # oid_id
+# https://vkvideo.ru/video-241063201_456239021
 
 iframe_html = f"""
 <iframe 
